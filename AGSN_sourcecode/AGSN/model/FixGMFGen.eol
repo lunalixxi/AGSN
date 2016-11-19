@@ -1,0 +1,4 @@
+var plugin := GmfGen!GenPlugin.all.first;
+
+plugin.requiredPlugins.add('GSN.figures');
+"FixGMFGen has executed".println();

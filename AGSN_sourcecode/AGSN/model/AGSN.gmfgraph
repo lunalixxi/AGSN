@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="ASCII"?>
+<gmfgraph:Canvas xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gmfgraph="http://www.eclipse.org/gmf/2006/GraphicalDefinition" name="AGSN">
+  <figures name="Default">
+    <figures xsi:type="gmfgraph:PolygonDecoration" name="ClosedArrow">
+      <backgroundColor xsi:type="gmfgraph:ConstantColor"/>
+      <template/>
+      <template x="-2" y="2"/>
+      <template x="-2" y="-2"/>
+      <template/>
+    </figures>
+    <figures xsi:type="gmfgraph:PolygonDecoration" name="FilledClosedArrow">
+      <template/>
+      <template x="-2" y="2"/>
+      <template x="-2" y="-2"/>
+      <template/>
+    </figures>
+    <figures xsi:type="gmfgraph:PolygonDecoration" name="FilledClosedArrow">
+      <template/>
+      <template x="-2" y="2"/>
+      <template x="-2" y="-2"/>
+      <template/>
+    </figures>
+    <descriptors name="GoalFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" name="GoalFigure" qualifiedClassName="gsnfigures.GSNGoal">
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="255" green="255" blue="255"/>
+        <preferredSize dx="120" dy="80"/>
+        <children xsi:type="gmfgraph:Label" name="GoalLabelFigure" text="Goal"/>
+        <children xsi:type="gmfgraph:Label" name="BasicNodeDescriptionLabelFigure"/>
+      </actualFigure>
+      <accessors accessor="getFigureGoalLabelFigure" figure="//@figures.0/@descriptors.0/@actualFigure/@children.0"/>
+      <accessors accessor="getFigureBasicNodeDescriptionLabelFigure" figure="//@figures.0/@descriptors.0/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="StrategyFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" name="StrategyFigure" qualifiedClassName="gsnfigures.GSNStrategy">
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="255" green="255" blue="255"/>
+        <preferredSize dx="120" dy="80"/>
+        <children xsi:type="gmfgraph:Label" name="StrategyLabelFigure" text="Strategy"/>
+        <children xsi:type="gmfgraph:Label" name="BasicNodeDescriptionLabelFigure"/>
+      </actualFigure>
+      <accessors accessor="getFigureStrategyLabelFigure" figure="//@figures.0/@descriptors.1/@actualFigure/@children.0"/>
+      <accessors accessor="getFigureBasicNodeDescriptionLabelFigure" figure="//@figures.0/@descriptors.1/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="EvidenceFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" name="EvidenceFigure" qualifiedClassName="gsnfigures.GSNSolution">
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="255" green="255" blue="255"/>
+        <preferredSize dx="80" dy="80"/>
+        <children xsi:type="gmfgraph:Label" name="EvidenceLabelFigure" text="Evidence"/>
+        <children xsi:type="gmfgraph:Label" name="BasicNodeDescriptionLabelFigure"/>
+      </actualFigure>
+      <accessors accessor="getFigureEvidenceLabelFigure" figure="//@figures.0/@descriptors.2/@actualFigure/@children.0"/>
+      <accessors accessor="getFigureBasicNodeDescriptionLabelFigure" figure="//@figures.0/@descriptors.2/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="ContextFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" name="ContextFigure" qualifiedClassName="gsnfigures.GSNContext">
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="255" green="255" blue="255"/>
+        <preferredSize dx="120" dy="80"/>
+        <children xsi:type="gmfgraph:Label" name="ContextLabelFigure" text="Context"/>
+        <children xsi:type="gmfgraph:Label" name="BasicNodeDescriptionLabelFigure"/>
+      </actualFigure>
+      <accessors accessor="getFigureContextLabelFigure" figure="//@figures.0/@descriptors.3/@actualFigure/@children.0"/>
+      <accessors accessor="getFigureBasicNodeDescriptionLabelFigure" figure="//@figures.0/@descriptors.3/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="JustificationFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" name="JustificationFigure" qualifiedClassName="gsnfigures.GSNJustification">
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="255" green="255" blue="255"/>
+        <preferredSize dx="120" dy="80"/>
+        <children xsi:type="gmfgraph:Label" name="JustificationLabelFigure" text="Justification"/>
+        <children xsi:type="gmfgraph:Label" name="BasicNodeDescriptionLabelFigure"/>
+      </actualFigure>
+      <accessors accessor="getFigureJustificationLabelFigure" figure="//@figures.0/@descriptors.4/@actualFigure/@children.0"/>
+      <accessors accessor="getFigureBasicNodeDescriptionLabelFigure" figure="//@figures.0/@descriptors.4/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="AssumptionFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" name="AssumptionFigure" qualifiedClassName="gsnfigures.GSNAssumption">
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="255" green="255" blue="255"/>
+        <preferredSize dx="120" dy="80"/>
+        <children xsi:type="gmfgraph:Label" name="AssumptionLabelFigure" text="Assumption"/>
+        <children xsi:type="gmfgraph:Label" name="BasicNodeDescriptionLabelFigure"/>
+      </actualFigure>
+      <accessors accessor="getFigureAssumptionLabelFigure" figure="//@figures.0/@descriptors.5/@actualFigure/@children.0"/>
+      <accessors accessor="getFigureBasicNodeDescriptionLabelFigure" figure="//@figures.0/@descriptors.5/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="StrengthFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="StrengthFigure">
+        <preferredSize dx="120" dy="80"/>
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="StrengthLabelFigure" text="Strength"/>
+        <children xsi:type="gmfgraph:Label" name="RecommendationDescriptionLabelFigure"/>
+      </actualFigure>
+      <accessors accessor="getFigureStrengthLabelFigure" figure="//@figures.0/@descriptors.6/@actualFigure/@children.0"/>
+      <accessors accessor="getFigureRecommendationDescriptionLabelFigure" figure="//@figures.0/@descriptors.6/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="RequiredActionFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="RequiredActionFigure">
+        <preferredSize dx="120" dy="80"/>
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="RequiredActionLabelFigure" text="RequiredAction"/>
+        <children xsi:type="gmfgraph:Label" name="RecommendationDescriptionLabelFigure"/>
+      </actualFigure>
+      <accessors accessor="getFigureRequiredActionLabelFigure" figure="//@figures.0/@descriptors.7/@actualFigure/@children.0"/>
+      <accessors accessor="getFigureRecommendationDescriptionLabelFigure" figure="//@figures.0/@descriptors.7/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="WeaknessFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="WeaknessFigure">
+        <preferredSize dx="120" dy="80"/>
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="WeaknessLabelFigure" text="Weakness"/>
+        <children xsi:type="gmfgraph:Label" name="RecommendationDescriptionLabelFigure"/>
+      </actualFigure>
+      <accessors accessor="getFigureWeaknessLabelFigure" figure="//@figures.0/@descriptors.8/@actualFigure/@children.0"/>
+      <accessors accessor="getFigureRecommendationDescriptionLabelFigure" figure="//@figures.0/@descriptors.8/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="QuestionFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="QuestionFigure">
+        <preferredSize dx="120" dy="80"/>
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="QuestionLabelFigure" text="Question"/>
+        <children xsi:type="gmfgraph:Label" name="RecommendationDescriptionLabelFigure"/>
+      </actualFigure>
+      <accessors accessor="getFigureQuestionLabelFigure" figure="//@figures.0/@descriptors.9/@actualFigure/@children.0"/>
+      <accessors accessor="getFigureRecommendationDescriptionLabelFigure" figure="//@figures.0/@descriptors.9/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="AdditionalElementFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="AdditionalElementFigure">
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="255" green="255" blue="255"/>
+        <preferredSize dx="120" dy="80"/>
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="AdditionalElementLabelFigure" text="AdditionalElement"/>
+        <children xsi:type="gmfgraph:Label" name="BasicNodeDescriptionLabelFigure"/>
+      </actualFigure>
+      <accessors accessor="getFigureAdditionalElementLabelFigure" figure="//@figures.0/@descriptors.10/@actualFigure/@children.0"/>
+      <accessors accessor="getFigureBasicNodeDescriptionLabelFigure" figure="//@figures.0/@descriptors.10/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="ModuleFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" name="ModuleFigure" qualifiedClassName="gsnfigures.GSNModule">
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="255" green="255" blue="255"/>
+        <preferredSize dx="120" dy="80"/>
+        <children xsi:type="gmfgraph:Label" name="ModuleLabelFigure" text="Module"/>
+        <children xsi:type="gmfgraph:Label" name="BasicNodeDescriptionLabelFigure"/>
+      </actualFigure>
+      <accessors accessor="getFigureModuleLabelFigure" figure="//@figures.0/@descriptors.11/@actualFigure/@children.0"/>
+      <accessors accessor="getFigureBasicNodeDescriptionLabelFigure" figure="//@figures.0/@descriptors.11/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="ContractFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" name="ContractFigure" qualifiedClassName="gsnfigures.GSNContract">
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="255" green="255" blue="255"/>
+        <preferredSize dx="120" dy="80"/>
+        <children xsi:type="gmfgraph:Label" name="ContractLabelFigure" text="Contract"/>
+        <children xsi:type="gmfgraph:Label" name="BasicNodeDescriptionLabelFigure"/>
+      </actualFigure>
+      <accessors accessor="getFigureContractLabelFigure" figure="//@figures.0/@descriptors.12/@actualFigure/@children.0"/>
+      <accessors accessor="getFigureBasicNodeDescriptionLabelFigure" figure="//@figures.0/@descriptors.12/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="InContextOfFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="InContextOfFigure" targetDecoration="//@figures.0/@figures.0">
+        <foregroundColor xsi:type="gmfgraph:RGBColor"/>
+      </actualFigure>
+    </descriptors>
+    <descriptors name="SupportedByFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="SupportedByFigure" targetDecoration="//@figures.0/@figures.1">
+        <foregroundColor xsi:type="gmfgraph:RGBColor"/>
+      </actualFigure>
+    </descriptors>
+    <descriptors name="AdditionalLinkFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="AdditionalLinkFigure" lineKind="LINE_DASH" targetDecoration="//@figures.0/@figures.2">
+        <foregroundColor xsi:type="gmfgraph:RGBColor"/>
+      </actualFigure>
+    </descriptors>
+    <descriptors name="BasicNodeHasCommentFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="BasicNodeHasCommentFigure"/>
+    </descriptors>
+    <descriptors name="BasicNodeHasCommentExternalLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="BasicNodeHasCommentExternalLabel"/>
+    </descriptors>
+  </figures>
+  <nodes name="Goal" figure="GoalFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="120" dy="80"/>
+    </facets>
+  </nodes>
+  <nodes name="Strategy" figure="StrategyFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="120" dy="80"/>
+    </facets>
+  </nodes>
+  <nodes name="Evidence" figure="EvidenceFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="80" dy="80"/>
+    </facets>
+  </nodes>
+  <nodes name="Context" figure="ContextFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="120" dy="80"/>
+    </facets>
+  </nodes>
+  <nodes name="Justification" figure="JustificationFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="120" dy="80"/>
+    </facets>
+  </nodes>
+  <nodes name="Assumption" figure="AssumptionFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="120" dy="80"/>
+    </facets>
+  </nodes>
+  <nodes name="Strength" figure="StrengthFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="120" dy="80"/>
+    </facets>
+  </nodes>
+  <nodes name="RequiredAction" figure="RequiredActionFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="120" dy="80"/>
+    </facets>
+  </nodes>
+  <nodes name="Weakness" figure="WeaknessFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="120" dy="80"/>
+    </facets>
+  </nodes>
+  <nodes name="Question" figure="QuestionFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="120" dy="80"/>
+    </facets>
+  </nodes>
+  <nodes name="AdditionalElement" figure="AdditionalElementFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="120" dy="80"/>
+    </facets>
+  </nodes>
+  <nodes name="Module" figure="ModuleFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="120" dy="80"/>
+    </facets>
+  </nodes>
+  <nodes name="Contract" figure="ContractFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="120" dy="80"/>
+    </facets>
+  </nodes>
+  <connections name="InContextOf" figure="InContextOfFigure"/>
+  <connections name="SupportedBy" figure="SupportedByFigure"/>
+  <connections name="AdditionalLink" figure="AdditionalLinkFigure"/>
+  <connections name="BasicNodeHasComment" figure="BasicNodeHasCommentFigure"/>
+  <labels name="GoalLabel" figure="GoalFigure" elementIcon="false" accessor="//@figures.0/@descriptors.0/@accessors.0"/>
+  <labels name="BasicNodeDescriptionLabel" figure="GoalFigure" elementIcon="false" accessor="//@figures.0/@descriptors.0/@accessors.1"/>
+  <labels name="StrategyLabel" figure="StrategyFigure" elementIcon="false" accessor="//@figures.0/@descriptors.1/@accessors.0"/>
+  <labels name="BasicNodeDescriptionLabel" figure="StrategyFigure" elementIcon="false" accessor="//@figures.0/@descriptors.1/@accessors.1"/>
+  <labels name="EvidenceLabel" figure="EvidenceFigure" elementIcon="false" accessor="//@figures.0/@descriptors.2/@accessors.0"/>
+  <labels name="BasicNodeDescriptionLabel" figure="EvidenceFigure" elementIcon="false" accessor="//@figures.0/@descriptors.2/@accessors.1"/>
+  <labels name="ContextLabel" figure="ContextFigure" elementIcon="false" accessor="//@figures.0/@descriptors.3/@accessors.0"/>
+  <labels name="BasicNodeDescriptionLabel" figure="ContextFigure" elementIcon="false" accessor="//@figures.0/@descriptors.3/@accessors.1"/>
+  <labels name="JustificationLabel" figure="JustificationFigure" elementIcon="false" accessor="//@figures.0/@descriptors.4/@accessors.0"/>
+  <labels name="BasicNodeDescriptionLabel" figure="JustificationFigure" elementIcon="false" accessor="//@figures.0/@descriptors.4/@accessors.1"/>
+  <labels name="AssumptionLabel" figure="AssumptionFigure" elementIcon="false" accessor="//@figures.0/@descriptors.5/@accessors.0"/>
+  <labels name="BasicNodeDescriptionLabel" figure="AssumptionFigure" elementIcon="false" accessor="//@figures.0/@descriptors.5/@accessors.1"/>
+  <labels name="StrengthLabel" figure="StrengthFigure" accessor="//@figures.0/@descriptors.6/@accessors.0"/>
+  <labels name="RecommendationDescriptionLabel" figure="StrengthFigure" elementIcon="false" accessor="//@figures.0/@descriptors.6/@accessors.1"/>
+  <labels name="RequiredActionLabel" figure="RequiredActionFigure" accessor="//@figures.0/@descriptors.7/@accessors.0"/>
+  <labels name="RecommendationDescriptionLabel" figure="RequiredActionFigure" elementIcon="false" accessor="//@figures.0/@descriptors.7/@accessors.1"/>
+  <labels name="WeaknessLabel" figure="WeaknessFigure" accessor="//@figures.0/@descriptors.8/@accessors.0"/>
+  <labels name="RecommendationDescriptionLabel" figure="WeaknessFigure" elementIcon="false" accessor="//@figures.0/@descriptors.8/@accessors.1"/>
+  <labels name="QuestionLabel" figure="QuestionFigure" accessor="//@figures.0/@descriptors.9/@accessors.0"/>
+  <labels name="RecommendationDescriptionLabel" figure="QuestionFigure" elementIcon="false" accessor="//@figures.0/@descriptors.9/@accessors.1"/>
+  <labels name="AdditionalElementLabel" figure="AdditionalElementFigure" accessor="//@figures.0/@descriptors.10/@accessors.0"/>
+  <labels name="BasicNodeDescriptionLabel" figure="AdditionalElementFigure" elementIcon="false" accessor="//@figures.0/@descriptors.10/@accessors.1"/>
+  <labels name="ModuleLabel" figure="ModuleFigure" elementIcon="false" accessor="//@figures.0/@descriptors.11/@accessors.0"/>
+  <labels name="BasicNodeDescriptionLabel" figure="ModuleFigure" elementIcon="false" accessor="//@figures.0/@descriptors.11/@accessors.1"/>
+  <labels name="ContractLabel" figure="ContractFigure" elementIcon="false" accessor="//@figures.0/@descriptors.12/@accessors.0"/>
+  <labels name="BasicNodeDescriptionLabel" figure="ContractFigure" elementIcon="false" accessor="//@figures.0/@descriptors.12/@accessors.1"/>
+  <labels name="BasicNodeHasCommentExternalLabel" figure="BasicNodeHasCommentExternalLabelFigure" elementIcon="false"/>
+</gmfgraph:Canvas>

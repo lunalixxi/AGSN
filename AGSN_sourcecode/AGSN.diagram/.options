@@ -1,0 +1,7 @@
+# Tracing options for the AGSN.diagram plug-in
+
+# Common issues
+AGSN.diagram/debug=false
+
+# Visual IDs
+AGSN.diagram/debug/visualID=false

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" copyrightText="" modelDirectory="/AGSN/src" modelPluginID="AGSN"
+    modelName="AGSN" importerID="org.eclipse.emf.importer.ecore" complianceLevel="6.0"
+    copyrightFields="false">
+  <foreignModel>AGSN.emf</foreignModel>
+  <genPackages prefix="AGSN" disposableProviderFactory="true" ecorePackage="AGSN.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="AGSN.ecore#//AssessStatus">
+      <genEnumLiterals ecoreEnumLiteral="AGSN.ecore#//AssessStatus/NotReviewed"/>
+      <genEnumLiterals ecoreEnumLiteral="AGSN.ecore#//AssessStatus/Accepted"/>
+      <genEnumLiterals ecoreEnumLiteral="AGSN.ecore#//AssessStatus/Incorrect"/>
+      <genEnumLiterals ecoreEnumLiteral="AGSN.ecore#//AssessStatus/Weak"/>
+      <genEnumLiterals ecoreEnumLiteral="AGSN.ecore#//AssessStatus/ReviewLater"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="AGSN.ecore#//Level">
+      <genEnumLiterals ecoreEnumLiteral="AGSN.ecore#//Level/VeryLow"/>
+      <genEnumLiterals ecoreEnumLiteral="AGSN.ecore#//Level/Low"/>
+      <genEnumLiterals ecoreEnumLiteral="AGSN.ecore#//Level/Medium"/>
+      <genEnumLiterals ecoreEnumLiteral="AGSN.ecore#//Level/High"/>
+      <genEnumLiterals ecoreEnumLiteral="AGSN.ecore#//Level/VeryHigh"/>
+    </genEnums>
+    <genDataTypes ecoreDataType="AGSN.ecore#//beliefDegree"/>
+    <genDataTypes ecoreDataType="AGSN.ecore#//percentage"/>
+    <genClasses ecoreClass="AGSN.ecore#//SafetyCase">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AGSN.ecore#//SafetyCase/rootBasicNode"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AGSN.ecore#//SafetyCase/rootBasicLink"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AGSN.ecore#//SafetyCase/rootCommendation"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AGSN.ecore#//SafetyCase/description"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AGSN.ecore#//SafetyCase/id"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="AGSN.ecore#//BasicNode">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AGSN.ecore#//BasicNode/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AGSN.ecore#//BasicNode/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AGSN.ecore#//BasicNode/assessstatus"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference AGSN.ecore#//BasicNode/hasComment"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AGSN.ecore#//BasicNode/description"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AGSN.ecore#//BasicNode/qualityLevel"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AGSN.ecore#//BasicNode/confidencePercentage"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AGSN.ecore#//BasicNode/weight"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AGSN.ecore#//BasicNode/beliefDegree"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="AGSN.ecore#//BasicLink">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference AGSN.ecore#//BasicLink/source"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference AGSN.ecore#//BasicLink/target"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AGSN.ecore#//BasicLink/id"/>
+    </genClasses>
+    <genClasses ecoreClass="AGSN.ecore#//Goal">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AGSN.ecore#//Goal/undeveloped"/>
+    </genClasses>
+    <genClasses ecoreClass="AGSN.ecore#//Strategy">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AGSN.ecore#//Strategy/undeveloped"/>
+    </genClasses>
+    <genClasses ecoreClass="AGSN.ecore#//Evidence">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AGSN.ecore#//Evidence/attachment"/>
+    </genClasses>
+    <genClasses ecoreClass="AGSN.ecore#//Context"/>
+    <genClasses ecoreClass="AGSN.ecore#//Justification"/>
+    <genClasses ecoreClass="AGSN.ecore#//Assumption"/>
+    <genClasses ecoreClass="AGSN.ecore#//InContextOf"/>
+    <genClasses ecoreClass="AGSN.ecore#//SupportedBy"/>
+    <genClasses ecoreClass="AGSN.ecore#//Recommendation">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AGSN.ecore#//Recommendation/ID"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AGSN.ecore#//Recommendation/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AGSN.ecore#//Recommendation/description"/>
+    </genClasses>
+    <genClasses ecoreClass="AGSN.ecore#//Strength"/>
+    <genClasses ecoreClass="AGSN.ecore#//RequiredAction"/>
+    <genClasses ecoreClass="AGSN.ecore#//Weakness"/>
+    <genClasses ecoreClass="AGSN.ecore#//Question"/>
+    <genClasses ecoreClass="AGSN.ecore#//AdditionalElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AGSN.ecore#//AdditionalElement/attachment"/>
+    </genClasses>
+    <genClasses ecoreClass="AGSN.ecore#//AdditionalLink"/>
+    <genClasses ecoreClass="AGSN.ecore#//ModuleElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute AGSN.ecore#//ModuleElement/attachment"/>
+    </genClasses>
+    <genClasses ecoreClass="AGSN.ecore#//Module"/>
+    <genClasses ecoreClass="AGSN.ecore#//Contract"/>
+  </genPackages>
+</genmodel:GenModel>

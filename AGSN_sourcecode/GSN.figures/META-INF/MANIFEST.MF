@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: GSNFigures
+Bundle-SymbolicName: GSN.figures
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: gsnfigures.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-ActivationPolicy: lazy
+Import-Package: AGSN,
+ org.eclipse.draw2d,
+ org.eclipse.draw2d.geometry,
+ org.eclipse.gmf.runtime.draw2d.ui.figures
+Export-Package: gsnfigures
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

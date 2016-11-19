@@ -1,0 +1,22 @@
+var palette := GmfTool!Palette.all.first();
+
+var toolGroupComments= new GmfTool!ToolGroup;
+toolGroupComments.title := 'Comment Nodes';
+toolGroupComments.collapsible := true;
+palette.tools.add(toolGroupComments);
+
+var toolGroupObjects = GmfTool!ToolGroup.all.selectOne(r|r.title = 'Objects');
+var toolGroupConnections = GmfTool!ToolGroup.all.selectOne(r|r.title = 'Connections');
+
+var toolEntry; 
+toolEntry = toolGroupObjects.tools.selectOne(r|r.title = 'Strength');
+toolGroupComments.tools.add(toolEntry);
+
+toolEntry = toolGroupObjects.tools.selectOne(r|r.title = 'Question');
+toolGroupComments.tools.add(toolEntry);
+
+toolEntry = toolGroupObjects.tools.selectOne(r|r.title = 'RequiredAction');
+toolGroupComments.tools.add(toolEntry);
+
+toolEntry = toolGroupObjects.tools.selectOne(r|r.title = 'Weakness');
+toolGroupComments.tools.add(toolEntry);

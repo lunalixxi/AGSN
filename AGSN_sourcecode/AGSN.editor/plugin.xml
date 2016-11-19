@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated AGSN -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="AGSN.presentation.AGSNModelWizardID"
+            name="%_UI_AGSNModelWizard_label"
+            class="AGSN.presentation.AGSNModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/AGSNModelFile.gif">
+         <description>%_UI_AGSNModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated AGSN -->
+      <editor
+            id="AGSN.presentation.AGSNEditorID"
+            name="%_UI_AGSNEditor_label"
+            icon="icons/full/obj16/AGSNModelFile.gif"
+            extensions="agsn"
+            class="AGSN.presentation.AGSNEditor"
+            contributorClass="AGSN.presentation.AGSNActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

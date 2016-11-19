@@ -1,0 +1,141 @@
+@namespace(uri="AGSN", prefix="AGSN")
+package AGSN;
+
+@gmf.diagram
+class SafetyCase {
+  val BasicNode[*] rootBasicNode;
+  val BasicLink[*] rootBasicLink;
+  val Recommendation[*] rootCommendation;
+  attr String description;
+
+  @ExtendedMetaData(name="id", namespace="http://sdq.ipd.uka.de/Identifier/1.0")
+  !ordered id attr String ~id;
+}
+
+abstract class BasicNode {
+
+  @ExtendedMetaData(name="id", namespace="http://sdq.ipd.uka.de/Identifier/1.0")
+  !ordered id attr String ~id;
+  attr String name;
+  attr AssessStatus assessstatus;
+
+  @gmf.link(style="solid", width="1", tool.small.bundle="AGSN.edit", tool.small.path="icons/full/obj16/BasicNodeHasComment.gif")
+  ref Recommendation hasComment;
+
+  @gmf.label
+  attr String description;
+  attr Level qualityLevel;
+  attr percentage confidencePercentage;
+  attr double weight;
+  attr beliefDegree beliefDegree;
+}
+
+abstract class BasicLink {
+  ref BasicNode source;
+  ref BasicNode target;
+
+  @ExtendedMetaData(name="id", namespace="http://sdq.ipd.uka.de/Identifier/1.0")
+  !ordered id attr String ~id;
+}
+
+@gmf.node(label="name", label.icon="false", label.pattern="Goal: {0}", figure="gsnfigures.GSNGoal", size="120,80", color="255,255,255")
+class Goal extends BasicNode {
+  attr boolean undeveloped = false;
+}
+
+@gmf.node(label="name", label.icon="false", label.pattern="Strategy: {0}", figure="gsnfigures.GSNStrategy", size="120,80", color="255,255,255")
+class Strategy extends BasicNode {
+  attr boolean undeveloped = false;
+}
+
+@gmf.node(label="name", label.icon="false", label.pattern="Evidence: {0}", figure="gsnfigures.GSNSolution", size="80,80", color="255,255,255")
+class Evidence extends BasicNode {
+  attr String attachment;
+}
+
+@gmf.node(label="name", label.icon="false", label.pattern="Context: {0}", figure="gsnfigures.GSNContext", size="120,80", color="255,255,255")
+class Context extends BasicNode {
+}
+
+@gmf.node(label="name", label.icon="false", label.pattern="Justification: {0}", figure="gsnfigures.GSNJustification", size="120,80", color="255,255,255")
+class Justification extends BasicNode {
+}
+
+@gmf.node(label="name", label.icon="false", label.pattern="Assumption: {0}", figure="gsnfigures.GSNAssumption", size="120,80", color="255,255,255")
+class Assumption extends BasicNode {
+}
+
+@gmf.link(source="source", target="target", style="solid", target.decoration="closedarrow", width="1", color="0,0,0")
+class InContextOf extends BasicLink {
+}
+
+@gmf.link(source="source", target="target", style="solid", target.decoration="filledclosedarrow", width="1", color="0,0,0")
+class SupportedBy extends BasicLink {
+}
+
+enum AssessStatus {
+  NotReviewed = 0;
+  Accepted = 1;
+  Incorrect = 2;
+  Weak = 3;
+  ReviewLater = 4;
+}
+
+class Recommendation {
+  attr String ID;
+  attr String name;
+
+  @gmf.label
+  attr String description;
+}
+
+@gmf.node(label="name", label.pattern="Strength: {0}", figure="rectangle", size="120,80")
+class Strength extends Recommendation {
+}
+
+@gmf.node(label="name", label.pattern="Required Action: {0}", figure="rectangle", size="120,80")
+class RequiredAction extends Recommendation {
+}
+
+@gmf.node(label="name", label.pattern="Weakness: {0}", figure="rectangle", size="120,80")
+class Weakness extends Recommendation {
+}
+
+@gmf.node(label="name", label.pattern="Question: {0}", figure="rectangle", size="120,80")
+class Question extends Recommendation {
+}
+
+enum Level {
+  VeryLow = 0;
+  Low = 1;
+  Medium = 2;
+  High = 3;
+  VeryHigh = 4;
+}
+
+@gmf.node(label="name", label.pattern="Additional Node: {0}", figure="rectangle", size="120,80", color="255,255,255")
+class AdditionalElement extends BasicNode {
+  attr String attachment;
+}
+
+@gmf.link(source="source", target="target", style="dash", target.decoration="filledclosedarrow", width="1", color="0,0,0")
+class AdditionalLink extends BasicLink {
+}
+
+class ModuleElement extends BasicNode {
+  attr String attachment;
+}
+
+@gmf.node(label="name", label.icon="false", label.pattern="Module: {0}", figure="gsnfigures.GSNModule", size="120,80", color="255,255,255")
+class Module extends ModuleElement {
+}
+
+@gmf.node(label="name", label.icon="false", label.pattern="Contract: {0}", figure="gsnfigures.GSNContract", size="120,80", color="255,255,255")
+class Contract extends ModuleElement {
+}
+
+datatype beliefDegree : "java.lang.double[]";
+
+@ExtendedMetaData(maxInclusive="100", minInclusive="0")
+datatype percentage : java.lang.Integer;
+

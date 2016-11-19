@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin
+>
+   <extension-point id="selectAttachment" name="SelectAttachment" schema="schema/selectAttachment.exsd"/>
+   <extension-point id="setAttributeContribution" name="setAttributeHandlers" schema="schema/setParameter.exsd"/>
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            description="Commands related to AGSN diagrams."
+            id="AGSN.diagram.custom.category"
+            name="AGSN">
+      </category>
+      <command
+            categoryId="AGSN.diagram.custom.category"
+            description="Attachment/Select from Workspace..."
+            id="AGSN.diagram.custom.command.selectattachmentfromws"
+            name="Attachment/Select from Workspace...">
+      </command>
+      <command
+            categoryId="AGSN.diagram.custom.category"
+            description="Attachment/Select from Web..."
+            id="AGSN.diagram.custom.command.selectattachmentfromweb"
+            name="Attachment/Select from Web...">
+      </command>
+      <command
+            categoryId="AGSN.diagram.custom.category"
+            id="AGSN.diagram.custom.command.openattachment"
+            name="Attachment/Open">
+         <commandParameter
+               id="AGSN.diagram.custom.command.OpenUrl.parameter.Attribute"
+               name="property"
+               optional="true">
+         </commandParameter>
+      </command>
+      <command
+            categoryId="AGSN.diagram.custom.category"
+            description="Generate Report/Quality Distribution"
+            id="AGSN.diagram.custom.command.qualitydistribution"
+            name="Generate Report/Quality Distribution">
+      </command>
+      <command
+            categoryId="AGSN.diagram.custom.category"
+            description="Generate Report/Status Overview"
+            id="AGSN.diagram.custom.command.statusdistribution"
+            name="Generate Report/Status Overview">
+      </command>
+      <command
+            categoryId="AGSN.diagram.custom.category"
+            description="Show Degree of Belief"
+            id="AGSN.diagram.custom.command.ERBarchart"
+            name="Show Degree of Belief">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="popup:org.eclipse.ui.popup.any?after=additions">
+         <separator
+               name="additions">
+         </separator>
+         <menu
+               id="AGSN.diagram.custom.command.Attachment"
+               label="%AGSN.diagram.custom.command.Attachment.label">
+            <command
+                  commandId="AGSN.diagram.custom.command.selectattachmentfromws"
+                  id="AGSN.diagram.custom.menu.selectattachmentfromws"
+                  label="%AGSN.diagram.custom.menu.selectattachmentfromws.label">
+               <visibleWhen>
+                     <iterate><or>
+                        <reference definitionId="AGSN.diagram.custom.isModuleOrContractPart"/>
+                        <reference definitionId="AGSN.diagram.custom.isExternalPart"/>
+                        <reference definitionId="AGSN.diagram.custom.isEvidencePart"/>s
+                     </or></iterate>
+               </visibleWhen>
+            </command>
+            <command
+                  commandId="AGSN.diagram.custom.command.selectattachmentfromweb"
+                  id="AGSN.diagram.custom.menu.selectattachmentfromweb"
+                  label="%AGSN.diagram.custom.menu.selectattachmentfromweb.label">
+               <visibleWhen>
+                  <iterate><or>
+                        <reference definitionId="AGSN.diagram.custom.isEvidencePart"/>
+                  </or></iterate>
+               </visibleWhen>
+            </command>
+            <command
+                  commandId="AGSN.diagram.custom.command.openattachment"
+                  id="AGSN.diagram.custom.menu.openattachment"
+                  label="%AGSN.diagram.custom.menu.openattachment.label">
+               <visibleWhen>
+                  <iterate><or>
+                        <reference definitionId="AGSN.diagram.custom.isModuleOrContractPart"/>
+                        <reference definitionId="AGSN.diagram.custom.isExternalPart"/>
+                        <reference definitionId="AGSN.diagram.custom.isEvidencePart"/>
+                     </or></iterate>
+               </visibleWhen>
+               <parameter
+                     name="AGSN.diagram.custom.command.OpenUrl.parameter.Attribute"
+                     value="Attachment">
+               </parameter>
+            </command>
+         </menu>
+         <menu
+               id="AGSN.diagram.custom.menu.generatereport"
+               label="%AGSN.diagram.custom.menu.generatereport.label">
+            <command
+                  commandId="AGSN.diagram.custom.command.qualitydistribution"
+                  id="AGSN.diagram.custom.command.qualitydistribution"
+                  label="%AGSN.diagram.custom.menu.qualitydistribution.label"
+                  style="push">
+                  <visibleWhen>
+	                    <iterate>
+	                        <with variable="selection">                            
+	                            <iterate>
+	                                <adapt type="AGSN.diagram.edit.parts.SafetyCaseEditPart" />
+	                            </iterate>
+	                        </with>
+	                    </iterate>
+	              </visibleWhen>
+            </command>
+            <command
+                  commandId="AGSN.diagram.custom.command.statusdistribution"
+                  id="AGSN.diagram.custom.menu.statusdistribution"
+                  label="%AGSN.diagram.custom.menu.statusdistribution.label"
+                  style="push">
+                  <visibleWhen>
+	                    <iterate>
+	                        <with variable="selection">                            
+	                            <iterate>
+	                                <adapt type="AGSN.diagram.edit.parts.SafetyCaseEditPart" />
+	                            </iterate>
+	                        </with>
+	                    </iterate>
+	              </visibleWhen>
+            </command>
+         </menu>
+         <command
+               commandId="AGSN.diagram.custom.command.ERBarchart"
+               id="AGSN.diagram.custom.menu.showER"
+               label="%AGSN.diagram.custom.menu.showER.label"
+               style="push">
+               <visibleWhen>
+                  <iterate>
+                     <reference definitionId="AGSN.diagram.custom.isERPart"/>
+                  </iterate>
+               </visibleWhen>
+         </command>
+      </menuContribution>
+   </extension>
+   <extension
+         point="AGSN.diagram.custom.setAttributeContribution">
+         <attachmentSelector
+            id="AGSN.diagram.custom.selectFromWS"
+            name="%AGSN.diagram.custom.parameter.attachment.selectfromworkspace.label"
+            class="AGSN.diagram.custom.command.SelectAttachmentFromWSHandler">
+        </attachmentSelector>  
+        <attachmentSelector
+            id="AGSN.diagram.custom.selectFromWeb"
+            name="%AGSN.diagram.custom.parameter.attachment.selectfromweb.label"
+            class="AGSN.diagram.custom.command.SelectAttachmentFromWebHandler">
+        </attachmentSelector>
+   </extension>
+   <!-- Tests whether the Evidence is selected. -->
+   <extension
+         point="org.eclipse.core.expressions.definitions">
+      <definition
+            id="AGSN.diagram.custom.isEvidencePart">
+         <with
+               variable="selection">
+            <and>
+               <count
+                     value="1">
+               </count>
+               <iterate>
+                  <adapt
+                        type="AGSN.diagram.edit.parts.EvidenceEditPart">
+                  </adapt>
+               </iterate>
+            </and>
+         </with>
+      </definition>
+   </extension>
+   <!-- Tests whether the External is selected. -->
+    <extension point="org.eclipse.core.expressions.definitions">
+       <definition id="AGSN.diagram.custom.isExternalPart">
+           <with variable="selection">
+               <and>
+                   <count value="1" />
+                   <iterate><or>
+                          <adapt type="AGSN.diagram.edit.parts.AdditionalElementEditPart" />
+	                   <!--<adapt type="net.dependableos.dcase.diagram.edit.parts.DcaseLink003EditPart" />-->
+	               </or></iterate>
+              </and>
+          </with>
+      </definition>
+    </extension>
+    <!-- Tests whether Goal or Strategy is selected. -->
+    <extension point="org.eclipse.core.expressions.definitions">
+       <definition id="AGSN.diagram.custom.isERPart">
+           <with variable="selection">
+               <and>
+                   <count value="1" />
+                   <iterate><or>
+                       <adapt type="AGSN.diagram.edit.parts.GoalEditPart" />
+                       <adapt type="AGSN.diagram.edit.parts.StrategyEditPart" />
+                       <!--<adapt type="net.dependableos.dcase.diagram.edit.parts.DcaseLink003EditPart" />-->
+                   </or></iterate>
+              </and>
+          </with>
+      </definition>
+    </extension>
+    <!-- Tests whether the Module or Contract is selected. -->
+    <extension point="org.eclipse.core.expressions.definitions">
+       <definition id="AGSN.diagram.custom.isModuleOrContractPart">
+           <with variable="selection">
+               <and>
+                   <count value="1" />
+                   <iterate><or>
+                       <adapt type="AGSN.diagram.edit.parts.ModuleEditPart" />
+	                   <adapt type="AGSN.diagram.edit.parts.ContractEditPart" />
+	                   <!--<adapt type="net.dependableos.dcase.diagram.edit.parts.DcaseLink003EditPart" />-->
+	               </or></iterate>
+              </and>
+          </with>
+      </definition>
+    </extension>
+    
+    <!-- Tests whether the Context is selected. -->
+   <extension
+         point="org.eclipse.core.expressions.definitions">
+      <definition
+            id="AGSN.diagram.custom.isContextPart">
+         <with
+               variable="selection">
+            <and>
+               <count
+                     value="1">
+               </count>
+               <iterate>
+                  <adapt
+                        type="AGSN.diagram.edit.parts.ContextEditPart">
+                  </adapt>
+               </iterate>
+            </and>
+         </with>
+      </definition>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="AGSN.diagram.custom.command.OpenAttachmentHandler"
+            commandId="AGSN.diagram.custom.command.openattachment">
+      </handler>
+      <handler
+            class="AGSN.diagram.custom.command.SelectAttachmentFromWebHandler"
+            commandId="AGSN.diagram.custom.command.selectattachmentfromweb">
+      </handler>
+      <handler
+            class="AGSN.diagram.custom.command.SelectAttachmentFromWSHandler"
+            commandId="AGSN.diagram.custom.command.selectattachmentfromws">
+      </handler>
+      <handler
+            class="AGSN.diagram.custom.command.QualityDistributionHandler"
+            commandId="AGSN.diagram.custom.command.qualitydistribution">
+      </handler>
+      <handler
+            class="AGSN.diagram.custom.command.StatusDistributionHandler"
+            commandId="AGSN.diagram.custom.command.statusdistribution">
+      </handler>
+      <handler
+            class="AGSN.diagram.custom.command.ERBarchartHandler"
+            commandId="AGSN.diagram.custom.command.ERBarchart">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            adaptable="false"
+            id="AGSN.diagram.custom.objectContribution.SafetyCaseEditPart"
+            objectClass="AGSN.diagram.edit.parts.SafetyCaseEditPart">
+         <action
+               class="AGSN.diagram.custom.command.CalculateERScoreAction"
+               id="AGSN.diagram.custom.CalculateScoreActionID"
+               label="%AGSN.diagram.custom.CalculateScoreActionID.label"
+               menubarPath="restGroup">
+         </action>
+      </objectContribution>
+   </extension>
+</plugin>
