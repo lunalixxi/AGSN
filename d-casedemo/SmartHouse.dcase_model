@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dcase:Argument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcase="http://www.dependable-os.net/2013/11/dcase_model/" id="_uOPGQI98EeWRzKcI_6eVPA" desc="Hazard list contains all possible hazards" attachment="" userdef010="" flag="" parameterizedDesc="">
+  <rootBasicNode xsi:type="dcase:Goal" id="_vzfz4I98EeWRzKcI_6eVPA" name="G_1" desc="Risk of smart house is reduced to allowable level" attachment="" userdef010="" score="1" weight="10"/>
+  <rootBasicNode xsi:type="dcase:Context" id="_EjrhsLXyEeWjNYAWtCecTQ" name="C_1" desc="Hazard list"/>
+  <rootBasicNode xsi:type="dcase:Context" id="_J2Z_kLXyEeWjNYAWtCecTQ" name="C_2" desc="Definition of smart house"/>
+  <rootBasicNode xsi:type="dcase:Strategy" id="_Qm3mwLXyEeWjNYAWtCecTQ" name="S_1" desc="Discuss according to hazards"/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_WMjc4LXyEeWjNYAWtCecTQ" name="G_2" desc="Hazard list contains all possible hazards" score="1" weight="6"/>
+  <rootBasicNode xsi:type="dcase:Strategy" id="_i5DksLXyEeWjNYAWtCecTQ" name="S_2" desc="Discuss hazard about &quot;Abstract level&quot;, &quot;Architecture level&quot;, &quot;Implementation level&quot;"/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_waSVELXyEeWjNYAWtCecTQ" name="G_3" desc="Hazard list of &quot;Abstract level&quot; is comprehensive" refSource="" score="1"/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_-JIqsLXyEeWjNYAWtCecTQ" name="G_4" desc="Hazards of &quot;Architecture level&quot; is comprehensive" score="1"/>
+  <rootBasicNode xsi:type="dcase:Evidence" id="_LFNfkLXzEeWjNYAWtCecTQ" name="E_1" desc="Hazard list of &quot;Abstract level&quot; contains 17 hazards"/>
+  <rootBasicNode xsi:type="dcase:Evidence" id="_XX_f0LXzEeWjNYAWtCecTQ" name="E_2" desc="Result of FMEA"/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_h85pALXzEeWjNYAWtCecTQ" name="G_5" desc="For each hazard, risk of hazard is reduced to allowable level" score="1" weight="4"/>
+  <rootBasicNode xsi:type="dcase:Strategy" id="_zuD9gLXzEeWjNYAWtCecTQ" name="S_3" desc="Discuss about &quot;Risk reduction structure&quot;, &quot;Architetural design&quot;, &quot;Implementation&quot;."/>
+  <rootBasicNode xsi:type="dcase:Goal" id="__EJsALXzEeWjNYAWtCecTQ" name="G_6" desc="Risk reduction structure deal with all hazard situations" score="1"/>
+  <rootBasicNode xsi:type="dcase:Evidence" id="_FChH4LX0EeWjNYAWtCecTQ" name="E_3" desc="Assurance case (1)"/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_LEobULX0EeWjNYAWtCecTQ" name="G_7" desc="All architectural design implement the risk reduction structure" score="1"/>
+  <rootBasicNode xsi:type="dcase:Evidence" id="_P1C2ULX0EeWjNYAWtCecTQ" name="E_4" desc="Assurance case (2), (3)"/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_T_myQLX0EeWjNYAWtCecTQ" name="G_8" desc="Implementation meet the system specification" score="1"/>
+  <rootBasicNode xsi:type="dcase:Evidence" id="_Y0JfULX0EeWjNYAWtCecTQ" name="E_5" desc="Assurance  case (4)"/>
+  <rootBasicLink xsi:type="dcase:InContextOf" id="_IZeHgLXyEeWjNYAWtCecTQ" source="#_vzfz4I98EeWRzKcI_6eVPA" target="#_EjrhsLXyEeWjNYAWtCecTQ" name="LINK_3"/>
+  <rootBasicLink xsi:type="dcase:InContextOf" id="_LUoRELXyEeWjNYAWtCecTQ" source="#_vzfz4I98EeWRzKcI_6eVPA" target="#_J2Z_kLXyEeWjNYAWtCecTQ" name="LINK_4"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_M2-_MLXzEeWjNYAWtCecTQ" source="#_waSVELXyEeWjNYAWtCecTQ" target="#_LFNfkLXzEeWjNYAWtCecTQ" name="LINK_5"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_ah6eILXzEeWjNYAWtCecTQ" source="#_-JIqsLXyEeWjNYAWtCecTQ" target="#_XX_f0LXzEeWjNYAWtCecTQ" name="LINK_6"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_n7-PgLXzEeWjNYAWtCecTQ" source="#_Qm3mwLXyEeWjNYAWtCecTQ" target="#_h85pALXzEeWjNYAWtCecTQ" name="LINK_7"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_uSYX8LXzEeWjNYAWtCecTQ" source="#_vzfz4I98EeWRzKcI_6eVPA" target="#_Qm3mwLXyEeWjNYAWtCecTQ" name="LINK_8"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_vdm08LXzEeWjNYAWtCecTQ" source="#_Qm3mwLXyEeWjNYAWtCecTQ" target="#_WMjc4LXyEeWjNYAWtCecTQ" name="LINK_9"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_v2G0gLXzEeWjNYAWtCecTQ" source="#_WMjc4LXyEeWjNYAWtCecTQ" target="#_i5DksLXyEeWjNYAWtCecTQ" name="LINK_10"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_Jcpw4LX0EeWjNYAWtCecTQ" source="#__EJsALXzEeWjNYAWtCecTQ" target="#_FChH4LX0EeWjNYAWtCecTQ" name="LINK_11"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_KUILcLX0EeWjNYAWtCecTQ" source="#_zuD9gLXzEeWjNYAWtCecTQ" target="#__EJsALXzEeWjNYAWtCecTQ" name="LINK_12"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_etzaULX0EeWjNYAWtCecTQ" source="#_LEobULX0EeWjNYAWtCecTQ" target="#_P1C2ULX0EeWjNYAWtCecTQ" name="LINK_13"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_fMbQALX0EeWjNYAWtCecTQ" source="#_T_myQLX0EeWjNYAWtCecTQ" target="#_Y0JfULX0EeWjNYAWtCecTQ" name="LINK_14"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_gjctULX0EeWjNYAWtCecTQ" source="#_zuD9gLXzEeWjNYAWtCecTQ" target="#_LEobULX0EeWjNYAWtCecTQ" name="LINK_15"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_hMV5ULX0EeWjNYAWtCecTQ" source="#_zuD9gLXzEeWjNYAWtCecTQ" target="#_T_myQLX0EeWjNYAWtCecTQ" name="LINK_16"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_h1_6ULX0EeWjNYAWtCecTQ" source="#_h85pALXzEeWjNYAWtCecTQ" target="#_zuD9gLXzEeWjNYAWtCecTQ" name="LINK_17"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_jPYIELX0EeWjNYAWtCecTQ" source="#_i5DksLXyEeWjNYAWtCecTQ" target="#_waSVELXyEeWjNYAWtCecTQ" name="LINK_18"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_jsjzULX0EeWjNYAWtCecTQ" source="#_i5DksLXyEeWjNYAWtCecTQ" target="#_-JIqsLXyEeWjNYAWtCecTQ" name="LINK_19"/>
+</dcase:Argument>

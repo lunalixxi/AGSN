@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dcase:Argument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcase="http://www.dependable-os.net/2013/11/dcase_model/" id="__wwdoLt1EeWmVuFRfUuBmw" userdef014="">
+  <rootBasicNode xsi:type="dcase:Goal" id="_mxdRsNolEeWwT6rQ_uV_eQ" name="G_1" desc="System [Car] is safe" attachment="" status="" userdef006="" respName="" respAddress="" respIcon="" validUntil="" requirement="" parameterDefs="" parameterVals="" parameterizedDesc="System {X} is safe" weight="10"/>
+  <rootBasicNode xsi:type="dcase:Pattern" id="_mxfG4NolEeWwT6rQ_uV_eQ" name="P_1" parameterDefs="X;name=X,type=string,min=0,max=256" parameterVals="X=Car" subType="Parameter"/>
+  <rootBasicNode xsi:type="dcase:Strategy" id="_mxfG4dolEeWwT6rQ_uV_eQ" name="S_1" desc="Argument by claiming addressed &#xD;&#xA;all identified plausible hazards" attachment="" status="" userdef006="" respName="" respAddress="" respIcon="" validUntil="" parameterDefs="" parameterVals="" parameterizedDesc=""/>
+  <rootBasicNode xsi:type="dcase:Context" id="_mxfG5NolEeWwT6rQ_uV_eQ" name="C_1" desc="Identified Hazards for System [Car]" attachment="" status="" userdef006="" respName="" respAddress="" respIcon="" validUntil="" parameterDefs="" parameterVals="" parameterizedDesc="Identified Hazards for System {X}"/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_mxfG5dolEeWwT6rQ_uV_eQ" name="G_3" desc="Hazard [Braking] has been addressed" attachment="" status="" userdef006="" respName="" respAddress="" respIcon="" validUntil="" requirement="" parameterDefs="" parameterVals="" parameterizedDesc="Hazard {Y} has been addressed" weight="4"/>
+  <rootBasicNode xsi:type="dcase:Pattern" id="_mxft8NolEeWwT6rQ_uV_eQ" name="P_3" parameterDefs="Y;name=Y,type=string,min=0,max=256" parameterVals="Y=Braking" subType="Parameter"/>
+  <rootBasicNode xsi:type="dcase:Module" id="_sEhfENorEeWwT6rQ_uV_eQ" name="SubModule" desc="Hazard [Running] has been addressed" attachment="Car/SubModule/" status="" userdef006="" userdef008="Score=0,Weight=1" respName="" respAddress="" respIcon="" validUntil="" requirement="" parameterDefs="" parameterVals="" parameterizedDesc="Hazard {Y} has been addressed"/>
+  <rootBasicLink xsi:type="dcase:InContextOf" id="_mxft8dolEeWwT6rQ_uV_eQ" source="#_mxdRsNolEeWwT6rQ_uV_eQ" target="#_mxfG4NolEeWwT6rQ_uV_eQ" name="LINK_1"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_mxft8tolEeWwT6rQ_uV_eQ" source="#_mxdRsNolEeWwT6rQ_uV_eQ" target="#_mxfG4dolEeWwT6rQ_uV_eQ" name="LINK_2"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_mxft89olEeWwT6rQ_uV_eQ" source="#_mxfG4dolEeWwT6rQ_uV_eQ" target="#_sEhfENorEeWwT6rQ_uV_eQ" name="LINK_3" siblingOrder="1"/>
+  <rootBasicLink xsi:type="dcase:InContextOf" id="_mxft9dolEeWwT6rQ_uV_eQ" source="#_mxfG4dolEeWwT6rQ_uV_eQ" target="#_mxfG5NolEeWwT6rQ_uV_eQ" name="LINK_5" siblingOrder="1"/>
+  <rootBasicLink xsi:type="dcase:InContextOf" id="_mxft9tolEeWwT6rQ_uV_eQ" source="#_mxfG5dolEeWwT6rQ_uV_eQ" target="#_mxft8NolEeWwT6rQ_uV_eQ" name="LINK_6"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_mxft99olEeWwT6rQ_uV_eQ" source="#_mxfG4dolEeWwT6rQ_uV_eQ" target="#_mxfG5dolEeWwT6rQ_uV_eQ" name="LINK_7" siblingOrder="2"/>
+</dcase:Argument>

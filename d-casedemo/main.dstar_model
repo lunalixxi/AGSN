@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dcase:Argument xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcase="http://www.dependable-os.net/2013/11/dcase_model/">
+  <rootBasicNode xsi:type="dcase:Module" name="Car/SubModule/" attachment="Car/SubModule/"/>
+  <rootBasicNode xsi:type="dcase:Module" name="Car/" attachment="Car/"/>
+  <rootBasicNode xsi:type="dcase:Module" name="SmartHouse/" attachment="SmartHouse/"/>
+  <rootBasicNode xsi:type="dcase:Module" name="demo2/ExternalEvidence/" attachment="demo2/ExternalEvidence/"/>
+  <rootBasicNode xsi:type="dcase:Module" name="demo2/external system/" attachment="demo2/external system/"/>
+  <rootBasicNode xsi:type="dcase:Module" name="demo2/" attachment="demo2/"/>
+  <rootBasicNode xsi:type="dcase:Module" name="pattern/functionality/" attachment="pattern/functionality/"/>
+  <rootBasicNode xsi:type="dcase:Module" name="pattern/reliability/" attachment="pattern/reliability/"/>
+  <rootBasicLink xsi:type="dcase:Responsibility" source="//@rootBasicNode.5" target="//@rootBasicNode.3" name="demo2/;demo2/ExternalEvidence/" attachment="main/ContractModule/;C" userdef012="auto"/>
+  <rootBasicLink xsi:type="dcase:Responsibility" source="//@rootBasicNode.5" target="//@rootBasicNode.4" name="demo2/;demo2/external system/" attachment=";C" userdef012="auto"/>
+</dcase:Argument>

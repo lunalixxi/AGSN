@@ -6,7 +6,7 @@ var path : new String;
 path = "/ModelTransformation/models/";
 var modelname : String;
 var sourcepath : String;
-sourcepath = "E:/TUEmaster/runtime/d-casedemo/";
+sourcepath = "../../d-casedemo/";
 modelname = "Car.dcase_model";
 var modelattach : String;
 var targetmodel : String;

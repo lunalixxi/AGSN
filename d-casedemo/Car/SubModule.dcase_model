@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dcase:Argument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcase="http://www.dependable-os.net/2013/11/dcase_model/" id="_r_ueoNorEeWwT6rQ_uV_eQ" name="SubModule" parent="test/" refSource="test/SubModule">
+  <rootBasicNode xsi:type="dcase:Goal" id="_sDBqQNorEeWwT6rQ_uV_eQ" name="G_2" desc="Hazard [Running] has been addressed" attachment="" status="" userdef006="" respName="" respAddress="" respIcon="" validUntil="" requirement="" parameterDefs="" parameterVals="" parameterizedDesc="Hazard {Y} has been addressed" weight="5"/>
+  <rootBasicNode xsi:type="dcase:Pattern" id="_sDDfcNorEeWwT6rQ_uV_eQ" name="P_2" parameterDefs="Y;name=Y,type=string,min=0,max=256" parameterVals="Y=Running" subType="Parameter"/>
+  <rootBasicLink xsi:type="dcase:InContextOf" id="_sDDfcdorEeWwT6rQ_uV_eQ" source="#_sDBqQNorEeWwT6rQ_uV_eQ" target="#_sDDfcNorEeWwT6rQ_uV_eQ" name="LINK_4"/>
+</dcase:Argument>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dcase="http://www.dependable-os.net/2013/11/dcase_model/" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_tCShwMsrEeWJG6mFYcG8Ug" type="Dcase" name="ExternalEvidence.dcase_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_tb6isMsrEeWJG6mFYcG8Ug" type="1001" fontName="微软雅黑" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_tb7w0MsrEeWJG6mFYcG8Ug" type="4001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tb7w0csrEeWJG6mFYcG8Ug" type="4002"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tb7w0ssrEeWJG6mFYcG8Ug" type="4003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tb7w08srEeWJG6mFYcG8Ug" type="4004"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tb7w1MsrEeWJG6mFYcG8Ug" type="4066"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tb7w1csrEeWJG6mFYcG8Ug" type="4071"/>
+    <element xmi:type="dcase:Goal" href="ExternalEvidence.dcase_model#_tb1qMMsrEeWJG6mFYcG8Ug"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tb6iscsrEeWJG6mFYcG8Ug" x="318" y="43"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_vyxsYMsrEeWJG6mFYcG8Ug" type="1003" fontName="微软雅黑" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_vyyTcMsrEeWJG6mFYcG8Ug" type="4009"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vyyTccsrEeWJG6mFYcG8Ug" type="4010"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vyyTcssrEeWJG6mFYcG8Ug" type="4011"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vyyTc8srEeWJG6mFYcG8Ug" type="4012"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vyyTdMsrEeWJG6mFYcG8Ug" type="4070"/>
+    <element xmi:type="dcase:Evidence" href="ExternalEvidence.dcase_model#_vyweQMsrEeWJG6mFYcG8Ug"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vyxsYcsrEeWJG6mFYcG8Ug" x="325" y="175"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_tCShwcsrEeWJG6mFYcG8Ug"/>
+  <element xmi:type="dcase:Argument" href="ExternalEvidence.dcase_model#_tCNCMMsrEeWJG6mFYcG8Ug"/>
+  <edges xmi:type="notation:Connector" xmi:id="_wm6fEMsrEeWJG6mFYcG8Ug" type="3001" source="_tb6isMsrEeWJG6mFYcG8Ug" target="_vyxsYMsrEeWJG6mFYcG8Ug" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_wm8UQMsrEeWJG6mFYcG8Ug" type="4061">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wm8UQcsrEeWJG6mFYcG8Ug" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_wm6fEcsrEeWJG6mFYcG8Ug" fontName="微软雅黑"/>
+    <element xmi:type="dcase:SupportedBy" href="ExternalEvidence.dcase_model#_wm1mkMsrEeWJG6mFYcG8Ug"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wm6fEssrEeWJG6mFYcG8Ug" points="[8, 28, 0, -80]$[8, 105, 0, -3]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wnEQEMsrEeWJG6mFYcG8Ug" id="(0.5661764705882353,0.03333333333333333)"/>
+  </edges>
+</notation:Diagram>

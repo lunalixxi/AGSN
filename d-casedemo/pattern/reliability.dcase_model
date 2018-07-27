@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dcase:Argument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcase="http://www.dependable-os.net/2013/11/dcase_model/" id="_qTIZYL88Ed-7jb7P3hw93A" userdef002="" message="">
+  <rootBasicNode xsi:type="dcase:Goal" id="_ygjGwL88Ed-7jb7P3hw93A" name="G4" desc="The system satisfies reliability requirements." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Strategy" id="_454nYL88Ed-7jb7P3hw93A" name="S4" desc="Consider each subcharacteristics of reliability."/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_A5St8L89Ed-7jb7P3hw93A" name="G4.1" desc="The system satisfies maturity requirement." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_dPqGkL89Ed-7jb7P3hw93A" name="G4.2" desc="The system satisfies fault tolerance requirement." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_jhPZYL89Ed-7jb7P3hw93A" name="G4.3" desc="The system satisfies recoverability requirement." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Strategy" id="_wiqoUL89Ed-7jb7P3hw93A" name="S4.1" desc="Consider each requirement of maturity."/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_1vtU8L89Ed-7jb7P3hw93A" name="G4.1.1" desc="Test result of the system &#xD;&#xA;satisfies specified defect extraction rate &#xD;&#xA;maeasured by latent fault density." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_8Mw38L89Ed-7jb7P3hw93A" name="G4.1.2" desc="Test density sholud be &#xD;&#xA;close to the required value." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_CTBrkL8-Ed-7jb7P3hw93A" name="G4.1.3" desc="Test result satisfies defect detection requirement." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_HJaywL8-Ed-7jb7P3hw93A" name="G4.1.4" desc="Test result satisfies defect resolution requirement." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_NDT-UL8-Ed-7jb7P3hw93A" name="G4.1.5" desc="Test cases of the system satisfy the &#xD;&#xA;requirement of Coverage of test-case." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_X81soL8-Ed-7jb7P3hw93A" name="G4.1.6" desc="The system satisfies the requirement &#xD;&#xA;of specification changes." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Strategy" id="_g5oogL8-Ed-7jb7P3hw93A" name="S4.1.3" desc="Consider each measurement item of defect detection."/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_pl5OAL8-Ed-7jb7P3hw93A" name="G4.1.3.1" desc="Defect detection rate should be &#xD;&#xA;close to the required value." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_2ehtUL8-Ed-7jb7P3hw93A" name="G4.1.3.2" desc="Defect density should be &#xD;&#xA;close to the required value." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Strategy" id="_7PjMUL8-Ed-7jb7P3hw93A" name="S4.1.4" desc="Consider each measurement item of defect resolution."/>
+  <rootBasicNode xsi:type="dcase:Goal" id="__JvxAL8-Ed-7jb7P3hw93A" name="G4.1.4.1" desc="Defect resolution rate should be &#xD;&#xA;larger than the required value." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_HNoH4L8_Ed-7jb7P3hw93A" name="G4.1.4.2" desc="Defect removal rate  should be &#xD;&#xA;larger than the required value." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Strategy" id="_SmSpQL8_Ed-7jb7P3hw93A" name="S4.1.5" desc="Consider each measurement item of Coverage of test-case."/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_X_jM8L8_Ed-7jb7P3hw93A" name="G4.1.5.1" desc="Coverage rate of  test-case should &#xD;&#xA;be larger than the required value." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_b2BIML8_Ed-7jb7P3hw93A" name="G4.1.5.2" desc="Maturity rate of test-case  should &#xD;&#xA;be larger than the required value." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Strategy" id="_hH-KAL8_Ed-7jb7P3hw93A" name="S4.1.6" desc="Consider each measurement item of specification change."/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_lloBEL8_Ed-7jb7P3hw93A" name="G4.1.6.1" desc="Specification change rate  should &#xD;&#xA;be smaller than the required value." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_rPudIL8_Ed-7jb7P3hw93A" name="G4.1.6.2" desc="Specification change convergence rate  &#xD;&#xA;should be smaller than the required value." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Strategy" id="_xX7KcL8_Ed-7jb7P3hw93A" name="S4.2" desc="Consider each requirement of fault tolerance. "/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_50PPcL8_Ed-7jb7P3hw93A" name="G4.2.1" desc="Frequency of stop running  should &#xD;&#xA;be larger than the required value." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_-0UeIL8_Ed-7jb7P3hw93A" name="G4.2.2" desc="Fault prevention rate should &#xD;&#xA;be larger than the required value." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_EMF0EL9AEd-7jb7P3hw93A" name="G4.2.3" desc="Misoperation prevention rate  should &#xD;&#xA;be larger than the required value." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Strategy" id="_OSNIcL9AEd-7jb7P3hw93A" name="S4.3" desc="Consider each requirement of recoverability."/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_UIN5kL9AEd-7jb7P3hw93A" name="G4.3.1" desc="The system satisfies required availablity &#xD;&#xA;measured by operation rate." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_ZHZwYL9AEd-7jb7P3hw93A" name="G4.3.2" desc="Running stop time by failure should be&#xD;&#xA;smaller than required mean down time." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_iAU44L9AEd-7jb7P3hw93A" name="G4.3.3" desc="Recovery time from failure should be &#xD;&#xA;shorter than required mean time to repair." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_mBhdcL9AEd-7jb7P3hw93A" name="G4.3.4" desc="Resumption rate  should be &#xD;&#xA;larger than the required value." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_saHXML9AEd-7jb7P3hw93A" name="G4.3.5" desc="Restoration rate  should be &#xD;&#xA;larger than the required value." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Context" id="_0U6DgL9AEd-7jb7P3hw93A" name="C4" desc="Overview:&#xD;&#xA;reliability is required for system to be dependable.&#xD;&#xA;Reliability has second quality characteristics,&#xD;&#xA; maturity,fault tolerance,and recoverability.&#xD;&#xA;These second quality characteristics are developed to &#xD;&#xA;sub goals and further sub goals are considered.&#xD;&#xA;&#xD;&#xA;G4.1.1-G4.1.3 are from JUAS,&#xD;&#xA;G4.2.2 from INSTAC/IPA, &#xD;&#xA;others are from ISO/IEC 9126. " attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Context" id="_VgxLcL9BEd-7jb7P3hw93A" name="C4.1.1" desc="Latent fault density estimation =&#xD;&#xA; (Total number of defects - defects found)/&#xD;&#xA;Size of the project. &#xD;&#xA;Size of Project can be Function points, use cases, KLOC etc.&#xD;&#xA;&#xD;&#xA;Shorter is better." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Context" id="_gOEboL9BEd-7jb7P3hw93A" name="C4.1.2" desc="Test density = &#xD;&#xA;the number of test-case prepared/Size of project. " attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Context" id="_niHRAL9BEd-7jb7P3hw93A" name="C4.1.3.1" desc="Defect detection rate = &#xD;&#xA;the number of defects found/the number of test-case. " attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Context" id="_ukIiQL9BEd-7jb7P3hw93A" name="C4.1.3.2" desc="Defect density = &#xD;&#xA;Total number of defects/Size of the project. " attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Context" id="_1PC7EL9BEd-7jb7P3hw93A" name="C4.1.4.1" desc="Defect resolution rate = &#xD;&#xA;the number of defects resolved/&#xD;&#xA;the number of defects found by test. &#xD;&#xA;&#xD;&#xA;Larger is better." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Context" id="_7ikuoL9BEd-7jb7P3hw93A" name="C4.1.4.2" desc="Defect removal rate = &#xD;&#xA;the number of defects removed/&#xD;&#xA;the number of defects found. &#xD;&#xA;&#xD;&#xA;Range of the value is 0-1,Larger is better." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Context" id="_DxLu0L9CEd-7jb7P3hw93A" name="C4.1.5.1" desc="Coverage rate of test-case = &#xD;&#xA;the number of test-case executed/&#xD;&#xA;total number of test-case.&#xD;&#xA;&#xD;&#xA;Range of the value is 0-1,Larger is better." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Context" id="_Ktrm4L9CEd-7jb7P3hw93A" name="C4.1.5.2" desc="Maturity rate of test-case = &#xD;&#xA;the number of test-case passed/&#xD;&#xA;total number of test-case.&#xD;&#xA;&#xD;&#xA;Range of the value is 0-1,Larger is better." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Context" id="_TOw3IL9CEd-7jb7P3hw93A" name="C4.1.6.1" desc="Specification change rate = &#xD;&#xA;the number of specification change accepted/&#xD;&#xA;total number of specification.&#xD;&#xA;&#xD;&#xA;Range of the value is 0-1,Smaller is better." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Context" id="_aHGA4L9CEd-7jb7P3hw93A" name="C4.1.6.2" desc="Specification change convergence rate = &#xD;&#xA;the number of specifivation change left/&#xD;&#xA;total number of specification change done.&#xD;&#xA;&#xD;&#xA;Range of the value is 0-1,smaller is better." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Context" id="_iQ710L9CEd-7jb7P3hw93A" name="C4.2.1" desc="Frequency of stop running =&#xD;&#xA; 1 - (the number of fault which cause stop running/&#xD;&#xA;total number of fault).&#xD;&#xA;&#xD;&#xA;Range of the value is 0-1,Larger is better." attachment="" status="" userdef010=""/>
+  <rootBasicNode xsi:type="dcase:Context" id="_qdTaUL9CEd-7jb7P3hw93A" name="C4.2.2" desc="Fault prevention rate = &#xD;&#xA;the number of critical fault avoidance pattern/&#xD;&#xA;the number of test-case of fault pattern.&#xD;&#xA;&#xD;&#xA;Range of the value is 0-1,Larger is better." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Context" id="_zqMnsL9CEd-7jb7P3hw93A" name="C4.2.3" desc="Misoperation prevention rate = &#xD;&#xA;the number of operations which can prevent critical error/&#xD;&#xA;total number of misoperation test-cases. &#xD;&#xA;&#xD;&#xA;Range of the value is 0-1,Larger is better." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Context" id="_B_hHcL9DEd-7jb7P3hw93A" name="C4.3.1" desc="Operation rate = &#xD;&#xA;MTBF/(MTBF+MTTR).&#xD;&#xA;&#xD;&#xA;Range of the value is 0-1,Larger is better." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Context" id="_RjgZwL9DEd-7jb7P3hw93A" name="C4.3.2" desc="Mean down time = &#xD;&#xA;total down time/the number of system down occured.&#xD;&#xA;&#xD;&#xA;Shorter is better." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Context" id="_cqJXAL9DEd-7jb7P3hw93A" name="C4.3.3" desc="Mean time to repair  = &#xD;&#xA;total time to repair/the number of repair required.&#xD;&#xA;&#xD;&#xA;Shorter is better." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Context" id="_mtuUwL9DEd-7jb7P3hw93A" name="C4.3.4" desc="Resumption rate = &#xD;&#xA;The number of resumption within required time/&#xD;&#xA;total number of resumption.&#xD;&#xA;&#xD;&#xA;Range of the value is 0-1,Larger is better." attachment="" status=""/>
+  <rootBasicNode xsi:type="dcase:Context" id="_uO4ZEL9DEd-7jb7P3hw93A" name="C4.3.5" desc="Restoration rate = &#xD;&#xA;The number of time successfuly restored/&#xD;&#xA;total number of time restored.&#xD;&#xA;&#xD;&#xA;Range of the value is 0-1,Larger is better." attachment="" status=""/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_8KWSkL88Ed-7jb7P3hw93A" source="#_ygjGwL88Ed-7jb7P3hw93A" target="#_454nYL88Ed-7jb7P3hw93A" name="LINK_1"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_hAnPsL89Ed-7jb7P3hw93A" source="#_454nYL88Ed-7jb7P3hw93A" target="#_A5St8L89Ed-7jb7P3hw93A" name="LINK_2"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_hhZBgL89Ed-7jb7P3hw93A" source="#_454nYL88Ed-7jb7P3hw93A" target="#_dPqGkL89Ed-7jb7P3hw93A" name="LINK_3"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_l4C4sL89Ed-7jb7P3hw93A" source="#_454nYL88Ed-7jb7P3hw93A" target="#_jhPZYL89Ed-7jb7P3hw93A" name="LINK_4"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_5qo5cL89Ed-7jb7P3hw93A" source="#_A5St8L89Ed-7jb7P3hw93A" target="#_wiqoUL89Ed-7jb7P3hw93A" name="LINK_5"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_6OZt0L89Ed-7jb7P3hw93A" source="#_wiqoUL89Ed-7jb7P3hw93A" target="#_1vtU8L89Ed-7jb7P3hw93A" name="LINK_6"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_-Y1t8L89Ed-7jb7P3hw93A" source="#_wiqoUL89Ed-7jb7P3hw93A" target="#_8Mw38L89Ed-7jb7P3hw93A" name="LINK_7"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_FAn6QL8-Ed-7jb7P3hw93A" source="#_wiqoUL89Ed-7jb7P3hw93A" target="#_CTBrkL8-Ed-7jb7P3hw93A" name="LINK_8"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_KQf4cL8-Ed-7jb7P3hw93A" source="#_wiqoUL89Ed-7jb7P3hw93A" target="#_HJaywL8-Ed-7jb7P3hw93A" name="LINK_9"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_PgE7sL8-Ed-7jb7P3hw93A" source="#_wiqoUL89Ed-7jb7P3hw93A" target="#_NDT-UL8-Ed-7jb7P3hw93A" name="LINK_10"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_awijUL8-Ed-7jb7P3hw93A" source="#_wiqoUL89Ed-7jb7P3hw93A" target="#_X81soL8-Ed-7jb7P3hw93A" name="LINK_11"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_jgYoUL8-Ed-7jb7P3hw93A" source="#_CTBrkL8-Ed-7jb7P3hw93A" target="#_g5oogL8-Ed-7jb7P3hw93A" name="LINK_12"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_r0WpoL8-Ed-7jb7P3hw93A" source="#_g5oogL8-Ed-7jb7P3hw93A" target="#_pl5OAL8-Ed-7jb7P3hw93A" name="LINK_13"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_4nK00L8-Ed-7jb7P3hw93A" source="#_g5oogL8-Ed-7jb7P3hw93A" target="#_2ehtUL8-Ed-7jb7P3hw93A" name="LINK_14"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_9NnbgL8-Ed-7jb7P3hw93A" source="#_HJaywL8-Ed-7jb7P3hw93A" target="#_7PjMUL8-Ed-7jb7P3hw93A" name="LINK_15"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_FQmagL8_Ed-7jb7P3hw93A" source="#_7PjMUL8-Ed-7jb7P3hw93A" target="#__JvxAL8-Ed-7jb7P3hw93A" name="LINK_16"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_JhlukL8_Ed-7jb7P3hw93A" source="#_7PjMUL8-Ed-7jb7P3hw93A" target="#_HNoH4L8_Ed-7jb7P3hw93A" name="LINK_17"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_UvYcsL8_Ed-7jb7P3hw93A" source="#_NDT-UL8-Ed-7jb7P3hw93A" target="#_SmSpQL8_Ed-7jb7P3hw93A" name="LINK_18"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_d7iDML8_Ed-7jb7P3hw93A" source="#_SmSpQL8_Ed-7jb7P3hw93A" target="#_X_jM8L8_Ed-7jb7P3hw93A" name="LINK_19"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_eXipwL8_Ed-7jb7P3hw93A" source="#_SmSpQL8_Ed-7jb7P3hw93A" target="#_b2BIML8_Ed-7jb7P3hw93A" name="LINK_20"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_j2nhkL8_Ed-7jb7P3hw93A" source="#_X81soL8-Ed-7jb7P3hw93A" target="#_hH-KAL8_Ed-7jb7P3hw93A" name="LINK_21"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_pFmH4L8_Ed-7jb7P3hw93A" source="#_hH-KAL8_Ed-7jb7P3hw93A" target="#_lloBEL8_Ed-7jb7P3hw93A" name="LINK_22"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_tlezkL8_Ed-7jb7P3hw93A" source="#_hH-KAL8_Ed-7jb7P3hw93A" target="#_rPudIL8_Ed-7jb7P3hw93A" name="LINK_23"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_ztrg4L8_Ed-7jb7P3hw93A" source="#_dPqGkL89Ed-7jb7P3hw93A" target="#_xX7KcL8_Ed-7jb7P3hw93A" name="LINK_24"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_8XG00L8_Ed-7jb7P3hw93A" source="#_xX7KcL8_Ed-7jb7P3hw93A" target="#_50PPcL8_Ed-7jb7P3hw93A" name="LINK_25"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_BK-McL9AEd-7jb7P3hw93A" source="#_xX7KcL8_Ed-7jb7P3hw93A" target="#_-0UeIL8_Ed-7jb7P3hw93A" name="LINK_26"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_Hv7HML9AEd-7jb7P3hw93A" source="#_xX7KcL8_Ed-7jb7P3hw93A" target="#_EMF0EL9AEd-7jb7P3hw93A" name="LINK_27"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_R_4UEL9AEd-7jb7P3hw93A" source="#_jhPZYL89Ed-7jb7P3hw93A" target="#_OSNIcL9AEd-7jb7P3hw93A" name="LINK_28"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_XZbysL9AEd-7jb7P3hw93A" source="#_OSNIcL9AEd-7jb7P3hw93A" target="#_UIN5kL9AEd-7jb7P3hw93A" name="LINK_29"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_cLgakL9AEd-7jb7P3hw93A" source="#_OSNIcL9AEd-7jb7P3hw93A" target="#_ZHZwYL9AEd-7jb7P3hw93A" name="LINK_30"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_pOkBML9AEd-7jb7P3hw93A" source="#_OSNIcL9AEd-7jb7P3hw93A" target="#_iAU44L9AEd-7jb7P3hw93A" name="LINK_31"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_ppr28L9AEd-7jb7P3hw93A" source="#_OSNIcL9AEd-7jb7P3hw93A" target="#_mBhdcL9AEd-7jb7P3hw93A" name="LINK_32"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_updjoL9AEd-7jb7P3hw93A" source="#_OSNIcL9AEd-7jb7P3hw93A" target="#_saHXML9AEd-7jb7P3hw93A" name="LINK_33"/>
+  <rootBasicLink xsi:type="dcase:Responsibility" id="_LW7NoL9BEd-7jb7P3hw93A" source="#_ygjGwL88Ed-7jb7P3hw93A" target="#_0U6DgL9AEd-7jb7P3hw93A" name="LINK_34"/>
+  <rootBasicLink xsi:type="dcase:Responsibility" id="_dfbrIL9BEd-7jb7P3hw93A" source="#_1vtU8L89Ed-7jb7P3hw93A" target="#_VgxLcL9BEd-7jb7P3hw93A" name="LINK_35"/>
+  <rootBasicLink xsi:type="dcase:Responsibility" id="_kQAnEL9BEd-7jb7P3hw93A" source="#_8Mw38L89Ed-7jb7P3hw93A" target="#_gOEboL9BEd-7jb7P3hw93A" name="LINK_36"/>
+  <rootBasicLink xsi:type="dcase:Responsibility" id="_r05U0L9BEd-7jb7P3hw93A" source="#_pl5OAL8-Ed-7jb7P3hw93A" target="#_niHRAL9BEd-7jb7P3hw93A" name="LINK_37"/>
+  <rootBasicLink xsi:type="dcase:Responsibility" id="_yY9ewL9BEd-7jb7P3hw93A" source="#_2ehtUL8-Ed-7jb7P3hw93A" target="#_ukIiQL9BEd-7jb7P3hw93A" name="LINK_38"/>
+  <rootBasicLink xsi:type="dcase:Responsibility" id="_5QZQoL9BEd-7jb7P3hw93A" source="#__JvxAL8-Ed-7jb7P3hw93A" target="#_1PC7EL9BEd-7jb7P3hw93A" name="LINK_39"/>
+  <rootBasicLink xsi:type="dcase:Responsibility" id="_BEVHAL9CEd-7jb7P3hw93A" source="#_HNoH4L8_Ed-7jb7P3hw93A" target="#_7ikuoL9BEd-7jb7P3hw93A" name="LINK_40"/>
+  <rootBasicLink xsi:type="dcase:Responsibility" id="_IYOLYL9CEd-7jb7P3hw93A" source="#_X_jM8L8_Ed-7jb7P3hw93A" target="#_DxLu0L9CEd-7jb7P3hw93A" name="LINK_41"/>
+  <rootBasicLink xsi:type="dcase:Responsibility" id="_PF-c0L9CEd-7jb7P3hw93A" source="#_b2BIML8_Ed-7jb7P3hw93A" target="#_Ktrm4L9CEd-7jb7P3hw93A" name="LINK_42"/>
+  <rootBasicLink xsi:type="dcase:Responsibility" id="_X4yWQL9CEd-7jb7P3hw93A" source="#_lloBEL8_Ed-7jb7P3hw93A" target="#_TOw3IL9CEd-7jb7P3hw93A" name="LINK_43"/>
+  <rootBasicLink xsi:type="dcase:Responsibility" id="_eoLmcL9CEd-7jb7P3hw93A" source="#_rPudIL8_Ed-7jb7P3hw93A" target="#_aHGA4L9CEd-7jb7P3hw93A" name="LINK_44"/>
+  <rootBasicLink xsi:type="dcase:Responsibility" id="_nSgSQL9CEd-7jb7P3hw93A" source="#_50PPcL8_Ed-7jb7P3hw93A" target="#_iQ710L9CEd-7jb7P3hw93A" name="LINK_45"/>
+  <rootBasicLink xsi:type="dcase:Responsibility" id="_wXWW4L9CEd-7jb7P3hw93A" source="#_-0UeIL8_Ed-7jb7P3hw93A" target="#_qdTaUL9CEd-7jb7P3hw93A" name="LINK_46"/>
+  <rootBasicLink xsi:type="dcase:Responsibility" id="_5GvI4L9CEd-7jb7P3hw93A" source="#_EMF0EL9AEd-7jb7P3hw93A" target="#_zqMnsL9CEd-7jb7P3hw93A" name="LINK_47"/>
+  <rootBasicLink xsi:type="dcase:Responsibility" id="_H_g7AL9DEd-7jb7P3hw93A" source="#_UIN5kL9AEd-7jb7P3hw93A" target="#_B_hHcL9DEd-7jb7P3hw93A" name="LINK_48"/>
+  <rootBasicLink xsi:type="dcase:Responsibility" id="_W3QLUL9DEd-7jb7P3hw93A" source="#_ZHZwYL9AEd-7jb7P3hw93A" target="#_RjgZwL9DEd-7jb7P3hw93A" name="LINK_49"/>
+  <rootBasicLink xsi:type="dcase:Responsibility" id="_hDCC0L9DEd-7jb7P3hw93A" source="#_iAU44L9AEd-7jb7P3hw93A" target="#_cqJXAL9DEd-7jb7P3hw93A" name="LINK_50"/>
+  <rootBasicLink xsi:type="dcase:Responsibility" id="_q6_mcL9DEd-7jb7P3hw93A" source="#_mBhdcL9AEd-7jb7P3hw93A" target="#_mtuUwL9DEd-7jb7P3hw93A" name="LINK_51"/>
+  <rootBasicLink xsi:type="dcase:Responsibility" id="_z9mPYL9DEd-7jb7P3hw93A" source="#_saHXML9AEd-7jb7P3hw93A" target="#_uO4ZEL9DEd-7jb7P3hw93A" name="LINK_52"/>
+</dcase:Argument>

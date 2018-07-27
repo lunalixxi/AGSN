@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dcase:Argument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcase="http://www.dependable-os.net/2013/11/dcase_model/" id="_4j7gABXJEeaNHuouS5fBDA">
+  <rootBasicNode xsi:type="dcase:Goal" id="_51gcoBXJEeaNHuouS5fBDA" name="G_1" desc="System meet the specification" userdef010=""/>
+  <rootBasicNode xsi:type="dcase:Strategy" id="_FNC8oBXKEeaNHuouS5fBDA" name="S_1" desc="Argue by design and implementation"/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_OQcPwRXKEeaNHuouS5fBDA" name="G_2" desc="All architectural design satisfy the spec of the system"/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_OQcPwhXKEeaNHuouS5fBDA" name="G_3" desc="The list of hazards is sound and complete"/>
+  <rootBasicNode xsi:type="dcase:Evidence" id="_SdzoEBXKEeaNHuouS5fBDA" name="E_1" desc="Architectural Design"/>
+  <rootBasicNode xsi:type="dcase:Evidence" id="_StlJcBXKEeaNHuouS5fBDA" name="E_2" desc="Hazard List" userdef010=""/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_LlRqABXKEeaNHuouS5fBDA" source="#_51gcoBXJEeaNHuouS5fBDA" target="#_FNC8oBXKEeaNHuouS5fBDA" name="LINK_1"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_P23bABXKEeaNHuouS5fBDA" source="#_FNC8oBXKEeaNHuouS5fBDA" target="#_OQcPwRXKEeaNHuouS5fBDA" name="LINK_2"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_QGub8BXKEeaNHuouS5fBDA" source="#_FNC8oBXKEeaNHuouS5fBDA" target="#_OQcPwhXKEeaNHuouS5fBDA" name="LINK_3"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_i6v7oBXKEeaNHuouS5fBDA" source="#_OQcPwhXKEeaNHuouS5fBDA" target="#_StlJcBXKEeaNHuouS5fBDA" name="LINK_4"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_jRY6ABXKEeaNHuouS5fBDA" source="#_OQcPwRXKEeaNHuouS5fBDA" target="#_SdzoEBXKEeaNHuouS5fBDA" name="LINK_5"/>
+</dcase:Argument>
