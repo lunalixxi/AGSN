@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dcase:Argument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcase="http://www.dependable-os.net/2013/11/dcase_model/" id="_RBw_YL98EeWWd7L0C2fiwQ" parameterizedDesc="">
+  <rootBasicNode xsi:type="dcase:Goal" id="_tcFjkL9_EeWWd7L0C2fiwQ" name="G_1" desc="System meet the specification"/>
+  <rootBasicNode xsi:type="dcase:Context" id="_02aAEL9_EeWWd7L0C2fiwQ" name="C_1" desc="Definition of  specification"/>
+  <rootBasicNode xsi:type="dcase:Strategy" id="_57zMkL9_EeWWd7L0C2fiwQ" name="S_1" desc="Argue by design and implementation"/>
+  <rootBasicNode xsi:type="dcase:Goal" id="__uu0gL9_EeWWd7L0C2fiwQ" name="G_2" desc="All architectural design satisfy the spec of the system"/>
+  <rootBasicNode xsi:type="dcase:Monitor" id="_F0DM8L-AEeWWd7L0C2fiwQ" name="M_1" desc="Result of model checking"/>
+  <rootBasicNode xsi:type="dcase:Goal" id="_T9l6gL-AEeWWd7L0C2fiwQ" name="G_3" desc="The lis of hazards is sound and complete"/>
+  <rootBasicNode xsi:type="dcase:Module" id="_eOx2cL-AEeWWd7L0C2fiwQ" name="D_1" desc="Module of CMMI" attachment="demo2/ExternalEvidence/"/>
+  <rootBasicNode xsi:type="dcase:Contract" id="_eucN8L-AEeWWd7L0C2fiwQ" name="Cr_1" desc="Contract between Module: D_1 and this safety case"/>
+  <rootBasicNode xsi:type="dcase:External" id="_hy0k8L-AEeWWd7L0C2fiwQ" name="Ex_1" attachment="demo2/external system/" respName="" respAddress="" respIcon="" validUntil=""/>
+  <rootBasicNode xsi:type="dcase:Evidence" id="_TR_6kBXJEeaNHuouS5fBDA" name="E_1" desc="Result of review report" attachment=""/>
+  <rootBasicLink xsi:type="dcase:InContextOf" id="_4NbmQL9_EeWWd7L0C2fiwQ" source="#_tcFjkL9_EeWWd7L0C2fiwQ" target="#_02aAEL9_EeWWd7L0C2fiwQ" name="LINK_1"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_6U63ML9_EeWWd7L0C2fiwQ" source="#_tcFjkL9_EeWWd7L0C2fiwQ" target="#_57zMkL9_EeWWd7L0C2fiwQ" name="LINK_2"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_QK0McL-AEeWWd7L0C2fiwQ" source="#__uu0gL9_EeWWd7L0C2fiwQ" target="#_F0DM8L-AEeWWd7L0C2fiwQ" name="LINK_3"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_SBYsgL-AEeWWd7L0C2fiwQ" source="#_57zMkL9_EeWWd7L0C2fiwQ" target="#__uu0gL9_EeWWd7L0C2fiwQ" name="LINK_5"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_lpxoYL-AEeWWd7L0C2fiwQ" source="#_57zMkL9_EeWWd7L0C2fiwQ" target="#_T9l6gL-AEeWWd7L0C2fiwQ" name="LINK_7"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_mjjwEL-AEeWWd7L0C2fiwQ" source="#_T9l6gL-AEeWWd7L0C2fiwQ" target="#_hy0k8L-AEeWWd7L0C2fiwQ" name="LINK_8"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_nMNEcL-AEeWWd7L0C2fiwQ" source="#_T9l6gL-AEeWWd7L0C2fiwQ" target="#_eOx2cL-AEeWWd7L0C2fiwQ" name="LINK_9"/>
+  <rootBasicLink xsi:type="dcase:Responsibility" id="_vffT0L-BEeWWd7L0C2fiwQ" source="#_eOx2cL-AEeWWd7L0C2fiwQ" target="#_eucN8L-AEeWWd7L0C2fiwQ" name="LINK_12"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_Zbr1oBXJEeaNHuouS5fBDA" source="#__uu0gL9_EeWWd7L0C2fiwQ" target="#_TR_6kBXJEeaNHuouS5fBDA" name="LINK_13"/>
+</dcase:Argument>

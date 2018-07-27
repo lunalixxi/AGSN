@@ -243,7 +243,7 @@ public class JFreeBarChart {
 
 	public static void generateBarChart(String filename, String title, String xaxis, String yaxis) {
 		
-			String filepath = chartFile.getPath() + "\\" + filename + ".png";
+			String filepath = chartFile.getPath() + "/" + filename + ".png";
 
 			CategoryDataset datasets = createDataset(values, xaxis);
 			JFreeChart chart = createChart(datasets, title, xaxis, yaxis);

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dcase="http://www.dependable-os.net/2013/11/dcase_model/" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_-3OucOn1EeWE-eNOr6DViw" type="Dcase" name="external system.dcase_diagram" measurementUnit="Pixel">
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_-3Oucen1EeWE-eNOr6DViw"/>
+  <element xmi:type="dcase:Argument" href="external system.dcase_model#_-2o4kOn1EeWE-eNOr6DViw"/>
+</notation:Diagram>

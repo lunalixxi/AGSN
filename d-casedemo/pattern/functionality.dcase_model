@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><dcase:Argument xmlns:dcase_old="http://www.dependable-os.net/2010/03/dcase/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcase="http://www.dependable-os.net/2013/11/dcase_model/" id="_gncfYL8JEd-KYe91P6fifQ" attachment="">
+<rootBasicNode xsi:type="dcase:Goal" id="_jDjOEL8MEd-7jb7P3hw93A" name="G1" desc="The system satisfies functionality requirements." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Strategy" id="_Agi3kL8NEd-7jb7P3hw93A" name="S1" desc="Consider each subcharacteristics of functionality."/>
+<rootBasicNode xsi:type="dcase:Goal" id="_LJFjkL8NEd-7jb7P3hw93A" name="G1.1" desc="The system satisfies suitability requirement." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Goal" id="_QfN6wL8NEd-7jb7P3hw93A" name="G1.2" desc="The system satisfies accuracy requirement." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Goal" id="_VDIK0L8NEd-7jb7P3hw93A" name="G1.3" desc="The system satisfies interoperability requirement." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Strategy" id="_dZL20L8NEd-7jb7P3hw93A" name="S1.1" desc="Consider each measurement item of suitability."/>
+<rootBasicNode xsi:type="dcase:Goal" id="_lAdKML8NEd-7jb7P3hw93A" name="G1.1.1" desc="Validity of function rate  should &#13;&#10;be greater than the required value. " attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Goal" id="_wa6bUL8NEd-7jb7P3hw93A" name="G1.1.2" desc="Excessiveness rate of function  should &#13;&#10;be smaller than the required value." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Goal" id="_2300YL8NEd-7jb7P3hw93A" name="G1.1.3" desc="Stability of functionnal requirement  &#13;&#10;should be smaller than the required value." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Goal" id="_-Qx-8L8NEd-7jb7P3hw93A" name="G1.1.4" desc="Claim rate  should be smaller &#13;&#10;than the required value." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Strategy" id="_aA2zoL8OEd-7jb7P3hw93A" name="S1.2" desc="Consider each measurement item of accuracy."/>
+<rootBasicNode xsi:type="dcase:Goal" id="_ej3r0L8OEd-7jb7P3hw93A" name="G1.2.1" desc="Precision of calculation  should &#13;&#10;be larger than the required value." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Goal" id="_uTC6cL8OEd-7jb7P3hw93A" name="G1.2.2" desc="Accuracy of data  should &#13;&#10;be larger the required value." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Goal" id="_63Zy4L8OEd-7jb7P3hw93A" name="G1.2.3" desc="Accuracy of operation manual  &#13;&#10;should be smaller than the required value." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Goal" id="_C2g-gL8PEd-7jb7P3hw93A" name="G1.2.4" desc="Accuracy of implementation  should &#13;&#10;be smaller than the required value." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Goal" id="_JxOt4L8PEd-7jb7P3hw93A" name="G1.2.5" desc="Output of the process should reflect &#13;&#10;the input of the process well.&#13;&#10;The system should satisfies required &#13;&#10;inspection density." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Strategy" id="_XiL8UL8PEd-7jb7P3hw93A" name="S1.3" desc="Consider interoperability by connectivity. "/>
+<rootBasicNode xsi:type="dcase:Goal" id="_gkMvYL8PEd-7jb7P3hw93A" name="G1.3.1" desc="The system can connect with other systems." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Goal" id="_jm9VwL8PEd-7jb7P3hw93A" name="G1.3.2" desc="Making cost of connecting &#13;&#10;with other systems should &#13;&#10;be kept below required amount." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Strategy" id="_oZxkgL8PEd-7jb7P3hw93A" name="S1.3.1" desc="Consider each measurement item of connectivity."/>
+<rootBasicNode xsi:type="dcase:Goal" id="_ss2jQL8PEd-7jb7P3hw93A" name="G1.3.1.1" desc="Connectivity rate with other systems  &#13;&#10;should be larger than the required value." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Goal" id="_w_oAAL8PEd-7jb7P3hw93A" name="G1.3.1.2" desc="Rate of  data exchange format variation  &#13;&#10;should be larger than the required value. " attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Goal" id="_0kXSEL8PEd-7jb7P3hw93A" name="G1.3.1.3" desc="Data exchang success rate  should &#13;&#10;be larger than the required value." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Context" id="_Tx3P4L8QEd-7jb7P3hw93A" name="C1.1.1" desc="Validity of function = &#13;&#10;the number of requirement suitably implemented/&#13;&#10;total number of requirement implemented.&#13;&#10;&#13;&#10;Range of the value is 0-1,Larger is better." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Context" id="_alRdYL8QEd-7jb7P3hw93A" name="C1.1.2" desc="Excessiveness rate of function = &#13;&#10;the number of unsolicited functions/&#13;&#10;total number of functions.&#13;&#10;&#13;&#10;Range of the value is 0-1,Smaller is better." attachment="" status="" message="" userdef002=""/>
+<rootBasicNode xsi:type="dcase:Context" id="_l1cxIL8QEd-7jb7P3hw93A" name="C1.1.3" desc="Stability of functional requirement = &#13;&#10;the number of functions changed or added by user request/&#13;&#10;total number of functions.&#13;&#10;&#13;&#10;Range of the value is 0-1,Smaller is better." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Context" id="_-CHwgL8QEd-7jb7P3hw93A" name="C1.1.4" desc="Claim rate = &#13;&#10;the number of claims from users/&#13;&#10;(running period x project size).&#13;&#10;&#13;&#10;Range of the value is 0-1,Smaller is better." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Context" id="_IyaDQL8REd-7jb7P3hw93A" name="C1.2.1" desc="Validity of precision of calculation = &#13;&#10;the number of functions qualified specific precision/&#13;&#10;total number of functions required specific precision.&#13;&#10;&#13;&#10;Range of the value is 0-1,Larger is better." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Context" id="_P3G1EL8REd-7jb7P3hw93A" name="C1.2.2" desc="Validity of accuracy of data = &#13;&#10;the number of functions qualified specific accuracy/&#13;&#10;total number of functions required specific accuracy.&#13;&#10;&#13;&#10;Range of the value is 0-1,Larger is better." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Context" id="_cpe7YL8REd-7jb7P3hw93A" name="C1.2.3" desc="Accuracy of operation manual = &#13;&#10;the number of indications of inaccuracy of the manual/&#13;&#10;total number of description of the manual. &#13;&#10;&#13;&#10;Range of the value is 0-1,Smaller is better." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Context" id="_kN6WIL8REd-7jb7P3hw93A" name="C1.2.4" desc="Accuracy of implementation = &#13;&#10;the number of implementation claimed by inaccuracy/&#13;&#10;total number of implementation.&#13;&#10;&#13;&#10;Range of the value is 0-1,Smaller is better." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Context" id="_qxO5ML8REd-7jb7P3hw93A" name="C1.2.5" desc="Output of the process must reflect &#13;&#10;the input of the process and it can be &#13;&#10;measured by inspection density.&#13;&#10;&#13;&#10;Inspection density = &#13;&#10;the number of reviews and tests actualy executed/&#13;&#10;standard number of reviews and tests for the organization.&#13;&#10;&#13;&#10;Larger than 1 is better." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Context" id="_0Do4sL8REd-7jb7P3hw93A" name="C1.3.2" desc="Easiness of connectivity is measured by cost&#13;&#10;of implementation to connect with other systems.&#13;&#10;&#13;&#10;Smaller is better." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Context" id="_9sGnwL8REd-7jb7P3hw93A" name="C1.3.1.1" desc="Index of connectivity with other systems = &#13;&#10;the number of systems to be able to connect with/&#13;&#10;the number of systems required to connect with.&#13;&#10;&#13;&#10;Range of the value is 0 or above.Larger than 1 is better." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Context" id="_GL_lML8SEd-7jb7P3hw93A" name="C1.3.1.2" desc="Data exchange format variation rate= &#13;&#10;the number of data format successfully exchanged/&#13;&#10;the number of data format used to exchange.&#13;&#10;&#13;&#10;Range of the value is 0 or above.Larger than 1 is better." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Context" id="_MpDvQL8SEd-7jb7P3hw93A" name="C1.3.1.3" desc="Data exchange success rate = &#13;&#10;the number of cases user data successfully exchanged/&#13;&#10;the number of cases user attempted to exchange data.&#13;&#10;&#13;&#10;Range of the value is 0 or above.Larger than 1 is better." attachment="" status=""/>
+<rootBasicNode xsi:type="dcase:Context" id="_btA2oL8SEd-7jb7P3hw93A" name="C1" desc="Overview:Functionality is required for system to be dependable.&#13;&#10;Functionality has second quality characteristics,&#13;&#10; suitability,accuracy,and  interoperability.&#13;&#10;These second quality characteristics are &#13;&#10;developed to sub goals and further sub goals are considered.&#13;&#10;&#13;&#10;G1.1.4 and G1.2.3 are from INSTAC,&#13;&#10;G1.2.5 and G1.3.2 are from JUAS,&#13;&#10;others are from ISO/IEC 9126." attachment="" status=""/>
+<rootBasicLink xsi:type="dcase:SupportedBy" id="_FILxEL8NEd-7jb7P3hw93A" source="#_jDjOEL8MEd-7jb7P3hw93A" target="#_Agi3kL8NEd-7jb7P3hw93A" name="LINK_1"/>
+<rootBasicLink xsi:type="dcase:SupportedBy" id="_SeBw0L8NEd-7jb7P3hw93A" source="#_Agi3kL8NEd-7jb7P3hw93A" target="#_LJFjkL8NEd-7jb7P3hw93A" name="LINK_2"/>
+<rootBasicLink xsi:type="dcase:SupportedBy" id="_S83o8L8NEd-7jb7P3hw93A" source="#_Agi3kL8NEd-7jb7P3hw93A" target="#_QfN6wL8NEd-7jb7P3hw93A" name="LINK_3"/>
+<rootBasicLink xsi:type="dcase:SupportedBy" id="_iUWJQL8NEd-7jb7P3hw93A" source="#_LJFjkL8NEd-7jb7P3hw93A" target="#_dZL20L8NEd-7jb7P3hw93A" name="LINK_4"/>
+<rootBasicLink xsi:type="dcase:SupportedBy" id="_B8Ek8L8OEd-7jb7P3hw93A" source="#_dZL20L8NEd-7jb7P3hw93A" target="#_lAdKML8NEd-7jb7P3hw93A" name="LINK_5"/>
+<rootBasicLink xsi:type="dcase:SupportedBy" id="_DNbfIL8OEd-7jb7P3hw93A" source="#_dZL20L8NEd-7jb7P3hw93A" target="#_wa6bUL8NEd-7jb7P3hw93A" name="LINK_6"/>
+<rootBasicLink xsi:type="dcase:SupportedBy" id="_D0688L8OEd-7jb7P3hw93A" source="#_dZL20L8NEd-7jb7P3hw93A" target="#_2300YL8NEd-7jb7P3hw93A" name="LINK_7"/>
+<rootBasicLink xsi:type="dcase:SupportedBy" id="_Ec3GsL8OEd-7jb7P3hw93A" source="#_dZL20L8NEd-7jb7P3hw93A" target="#_-Qx-8L8NEd-7jb7P3hw93A" name="LINK_8"/>
+<rootBasicLink xsi:type="dcase:SupportedBy" id="_LtVDoL8OEd-7jb7P3hw93A" source="#_Agi3kL8NEd-7jb7P3hw93A" target="#_VDIK0L8NEd-7jb7P3hw93A" name="LINK_9"/>
+<rootBasicLink xsi:type="dcase:SupportedBy" id="_pdjLIL8OEd-7jb7P3hw93A" source="#_aA2zoL8OEd-7jb7P3hw93A" target="#_ej3r0L8OEd-7jb7P3hw93A" name="LINK_10"/>
+<rootBasicLink xsi:type="dcase:SupportedBy" id="_ql0awL8OEd-7jb7P3hw93A" source="#_QfN6wL8NEd-7jb7P3hw93A" target="#_aA2zoL8OEd-7jb7P3hw93A" name="LINK_11"/>
+<rootBasicLink xsi:type="dcase:SupportedBy" id="_3sJ-4L8OEd-7jb7P3hw93A" source="#_aA2zoL8OEd-7jb7P3hw93A" target="#_uTC6cL8OEd-7jb7P3hw93A" name="LINK_12"/>
+<rootBasicLink xsi:type="dcase:SupportedBy" id="_9rHQoL8OEd-7jb7P3hw93A" source="#_aA2zoL8OEd-7jb7P3hw93A" target="#_63Zy4L8OEd-7jb7P3hw93A" name="LINK_13"/>
+<rootBasicLink xsi:type="dcase:SupportedBy" id="_GaD9wL8PEd-7jb7P3hw93A" source="#_aA2zoL8OEd-7jb7P3hw93A" target="#_C2g-gL8PEd-7jb7P3hw93A" name="LINK_14"/>
+<rootBasicLink xsi:type="dcase:SupportedBy" id="_aOcuQL8PEd-7jb7P3hw93A" source="#_VDIK0L8NEd-7jb7P3hw93A" target="#_XiL8UL8PEd-7jb7P3hw93A" name="LINK_15"/>
+<rootBasicLink xsi:type="dcase:SupportedBy" id="_lGU2wL8PEd-7jb7P3hw93A" source="#_XiL8UL8PEd-7jb7P3hw93A" target="#_gkMvYL8PEd-7jb7P3hw93A" name="LINK_16"/>
+<rootBasicLink xsi:type="dcase:SupportedBy" id="_luaKcL8PEd-7jb7P3hw93A" source="#_XiL8UL8PEd-7jb7P3hw93A" target="#_jm9VwL8PEd-7jb7P3hw93A" name="LINK_17"/>
+<rootBasicLink xsi:type="dcase:SupportedBy" id="_qRukoL8PEd-7jb7P3hw93A" source="#_gkMvYL8PEd-7jb7P3hw93A" target="#_oZxkgL8PEd-7jb7P3hw93A" name="LINK_18"/>
+<rootBasicLink xsi:type="dcase:SupportedBy" id="_uuMI4L8PEd-7jb7P3hw93A" source="#_oZxkgL8PEd-7jb7P3hw93A" target="#_ss2jQL8PEd-7jb7P3hw93A" name="LINK_19"/>
+<rootBasicLink xsi:type="dcase:SupportedBy" id="_ydgTQL8PEd-7jb7P3hw93A" source="#_oZxkgL8PEd-7jb7P3hw93A" target="#_w_oAAL8PEd-7jb7P3hw93A" name="LINK_20"/>
+<rootBasicLink xsi:type="dcase:SupportedBy" id="_12dzIL8PEd-7jb7P3hw93A" source="#_oZxkgL8PEd-7jb7P3hw93A" target="#_0kXSEL8PEd-7jb7P3hw93A" name="LINK_21"/>
+<rootBasicLink xsi:type="dcase:SupportedBy" id="_E8NqQL8QEd-7jb7P3hw93A" source="#_aA2zoL8OEd-7jb7P3hw93A" target="#_JxOt4L8PEd-7jb7P3hw93A" name="LINK_22"/>
+<rootBasicLink xsi:type="dcase:Responsibility" id="_aEYIEL8WEd-7jb7P3hw93A" source="#_lAdKML8NEd-7jb7P3hw93A" target="#_Tx3P4L8QEd-7jb7P3hw93A" name="LINK_47"/>
+<rootBasicLink xsi:type="dcase:Responsibility" id="_cJmIIL8WEd-7jb7P3hw93A" source="#_wa6bUL8NEd-7jb7P3hw93A" target="#_alRdYL8QEd-7jb7P3hw93A" name="LINK_48"/>
+<rootBasicLink xsi:type="dcase:Responsibility" id="_c7NyUL8WEd-7jb7P3hw93A" source="#_2300YL8NEd-7jb7P3hw93A" target="#_l1cxIL8QEd-7jb7P3hw93A" name="LINK_49"/>
+<rootBasicLink xsi:type="dcase:Responsibility" id="_eSGFsL8WEd-7jb7P3hw93A" source="#_-Qx-8L8NEd-7jb7P3hw93A" target="#_-CHwgL8QEd-7jb7P3hw93A" name="LINK_50"/>
+<rootBasicLink xsi:type="dcase:Responsibility" id="_gGnXUL8WEd-7jb7P3hw93A" source="#_ej3r0L8OEd-7jb7P3hw93A" target="#_IyaDQL8REd-7jb7P3hw93A" name="LINK_51"/>
+<rootBasicLink xsi:type="dcase:Responsibility" id="_hTqZQL8WEd-7jb7P3hw93A" source="#_uTC6cL8OEd-7jb7P3hw93A" target="#_P3G1EL8REd-7jb7P3hw93A" name="LINK_52"/>
+<rootBasicLink xsi:type="dcase:Responsibility" id="_iKf6oL8WEd-7jb7P3hw93A" source="#_63Zy4L8OEd-7jb7P3hw93A" target="#_cpe7YL8REd-7jb7P3hw93A" name="LINK_53"/>
+<rootBasicLink xsi:type="dcase:Responsibility" id="_jLT3YL8WEd-7jb7P3hw93A" source="#_C2g-gL8PEd-7jb7P3hw93A" target="#_kN6WIL8REd-7jb7P3hw93A" name="LINK_54"/>
+<rootBasicLink xsi:type="dcase:Responsibility" id="_j17hsL8WEd-7jb7P3hw93A" source="#_JxOt4L8PEd-7jb7P3hw93A" target="#_qxO5ML8REd-7jb7P3hw93A" name="LINK_55"/>
+<rootBasicLink xsi:type="dcase:Responsibility" id="_lCFLwL8WEd-7jb7P3hw93A" source="#_jm9VwL8PEd-7jb7P3hw93A" target="#_0Do4sL8REd-7jb7P3hw93A" name="LINK_56"/>
+<rootBasicLink xsi:type="dcase:Responsibility" id="_mio_kL8WEd-7jb7P3hw93A" source="#_ss2jQL8PEd-7jb7P3hw93A" target="#_9sGnwL8REd-7jb7P3hw93A" name="LINK_57"/>
+<rootBasicLink xsi:type="dcase:Responsibility" id="_m-WrML8WEd-7jb7P3hw93A" source="#_w_oAAL8PEd-7jb7P3hw93A" target="#_GL_lML8SEd-7jb7P3hw93A" name="LINK_58"/>
+<rootBasicLink xsi:type="dcase:Responsibility" id="_n6aDwL8WEd-7jb7P3hw93A" source="#_0kXSEL8PEd-7jb7P3hw93A" target="#_MpDvQL8SEd-7jb7P3hw93A" name="LINK_59"/>
+<rootBasicLink xsi:type="dcase:Responsibility" id="_LGRUkL8XEd-7jb7P3hw93A" source="#_jDjOEL8MEd-7jb7P3hw93A" target="#_btA2oL8SEd-7jb7P3hw93A" name="LINK_60"/>
+</dcase:Argument>

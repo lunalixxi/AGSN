@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dcase:Argument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcase="http://www.dependable-os.net/2013/11/dcase_model/" id="_tCNCMMsrEeWJG6mFYcG8Ug" flag="P" refSource="demo2/D_1">
+  <rootBasicNode xsi:type="dcase:Goal" id="_tb1qMMsrEeWJG6mFYcG8Ug" name="G_1" desc="External system is safe." score="1"/>
+  <rootBasicNode xsi:type="dcase:Evidence" id="_vyweQMsrEeWJG6mFYcG8Ug" name="E_1"/>
+  <rootBasicLink xsi:type="dcase:SupportedBy" id="_wm1mkMsrEeWJG6mFYcG8Ug" source="#_tb1qMMsrEeWJG6mFYcG8Ug" target="#_vyweQMsrEeWJG6mFYcG8Ug" name="LINK_1"/>
+</dcase:Argument>

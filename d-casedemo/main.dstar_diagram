@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" type="Dcase" name="main.dstar_diagram" measurementUnit="Pixel">
+  <children xsi:type="notation:Shape" type="1014" fontName="微软雅黑" lineColor="0">
+    <children xsi:type="notation:DecorationNode" type="4053"/>
+    <children xsi:type="notation:DecorationNode" type="4054"/>
+    <children xsi:type="notation:DecorationNode" type="4055"/>
+    <children xsi:type="notation:DecorationNode" type="4056"/>
+    <children xsi:type="notation:DecorationNode" type="4065"/>
+    <children xsi:type="notation:DecorationNode" type="4068"/>
+    <element href="main.dstar_model#//@rootBasicNode.0"/>
+    <layoutConstraint xsi:type="notation:Bounds" x="795" y="260"/>
+  </children>
+  <children xsi:type="notation:Shape" type="1014" fontName="微软雅黑" lineColor="0">
+    <children xsi:type="notation:DecorationNode" type="4053"/>
+    <children xsi:type="notation:DecorationNode" type="4054"/>
+    <children xsi:type="notation:DecorationNode" type="4055"/>
+    <children xsi:type="notation:DecorationNode" type="4056"/>
+    <children xsi:type="notation:DecorationNode" type="4065"/>
+    <children xsi:type="notation:DecorationNode" type="4068"/>
+    <element href="main.dstar_model#//@rootBasicNode.1"/>
+    <layoutConstraint xsi:type="notation:Bounds" x="1025" y="260"/>
+  </children>
+  <children xsi:type="notation:Shape" type="1014" fontName="微软雅黑" lineColor="0">
+    <children xsi:type="notation:DecorationNode" type="4053"/>
+    <children xsi:type="notation:DecorationNode" type="4054"/>
+    <children xsi:type="notation:DecorationNode" type="4055"/>
+    <children xsi:type="notation:DecorationNode" type="4056"/>
+    <children xsi:type="notation:DecorationNode" type="4065"/>
+    <children xsi:type="notation:DecorationNode" type="4068"/>
+    <element href="main.dstar_model#//@rootBasicNode.2"/>
+    <layoutConstraint xsi:type="notation:Bounds" x="1185" y="260"/>
+  </children>
+  <children xsi:type="notation:Shape" type="1014" fontName="微软雅黑" lineColor="0">
+    <children xsi:type="notation:DecorationNode" type="4053"/>
+    <children xsi:type="notation:DecorationNode" type="4054"/>
+    <children xsi:type="notation:DecorationNode" type="4055"/>
+    <children xsi:type="notation:DecorationNode" type="4056"/>
+    <children xsi:type="notation:DecorationNode" type="4065"/>
+    <children xsi:type="notation:DecorationNode" type="4068"/>
+    <element href="main.dstar_model#//@rootBasicNode.3"/>
+    <layoutConstraint xsi:type="notation:Bounds" x="1395" y="385"/>
+  </children>
+  <children xsi:type="notation:Shape" type="1014" fontName="微软雅黑" lineColor="0">
+    <children xsi:type="notation:DecorationNode" type="4053"/>
+    <children xsi:type="notation:DecorationNode" type="4054"/>
+    <children xsi:type="notation:DecorationNode" type="4055"/>
+    <children xsi:type="notation:DecorationNode" type="4056"/>
+    <children xsi:type="notation:DecorationNode" type="4065"/>
+    <children xsi:type="notation:DecorationNode" type="4068"/>
+    <element href="main.dstar_model#//@rootBasicNode.4"/>
+    <layoutConstraint xsi:type="notation:Bounds" x="1675" y="385"/>
+  </children>
+  <children xsi:type="notation:Shape" type="1014" fontName="微软雅黑" lineColor="0">
+    <children xsi:type="notation:DecorationNode" type="4053"/>
+    <children xsi:type="notation:DecorationNode" type="4054"/>
+    <children xsi:type="notation:DecorationNode" type="4055"/>
+    <children xsi:type="notation:DecorationNode" type="4056"/>
+    <children xsi:type="notation:DecorationNode" type="4065"/>
+    <children xsi:type="notation:DecorationNode" type="4068"/>
+    <element href="main.dstar_model#//@rootBasicNode.5"/>
+    <layoutConstraint xsi:type="notation:Bounds" x="1585" y="260"/>
+  </children>
+  <children xsi:type="notation:Shape" type="1014" fontName="微软雅黑" lineColor="0">
+    <children xsi:type="notation:DecorationNode" type="4053"/>
+    <children xsi:type="notation:DecorationNode" type="4054"/>
+    <children xsi:type="notation:DecorationNode" type="4055"/>
+    <children xsi:type="notation:DecorationNode" type="4056"/>
+    <children xsi:type="notation:DecorationNode" type="4065"/>
+    <children xsi:type="notation:DecorationNode" type="4068"/>
+    <element href="main.dstar_model#//@rootBasicNode.6"/>
+    <layoutConstraint xsi:type="notation:Bounds" x="1950" y="260"/>
+  </children>
+  <children xsi:type="notation:Shape" type="1014" fontName="微软雅黑" lineColor="0">
+    <children xsi:type="notation:DecorationNode" type="4053"/>
+    <children xsi:type="notation:DecorationNode" type="4054"/>
+    <children xsi:type="notation:DecorationNode" type="4055"/>
+    <children xsi:type="notation:DecorationNode" type="4056"/>
+    <children xsi:type="notation:DecorationNode" type="4065"/>
+    <children xsi:type="notation:DecorationNode" type="4068"/>
+    <element href="main.dstar_model#//@rootBasicNode.7"/>
+    <layoutConstraint xsi:type="notation:Bounds" x="2205" y="260"/>
+  </children>
+  <styles xsi:type="notation:DiagramStyle"/>
+  <element href="main.dstar_model#/"/>
+  <edges xsi:type="notation:Connector" type="3003" source="//@children.5" target="//@children.3" lineColor="0">
+    <children xsi:type="notation:DecorationNode" type="4063">
+      <layoutConstraint xsi:type="notation:Location" y="40"/>
+    </children>
+    <styles xsi:type="notation:FontStyle" fontName="微软雅黑"/>
+    <element href="main.dstar_model#//@rootBasicLink.0"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, 0, 137, -32]$[-137, 32, 0, 0]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.5,1.0)"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.5,0.0)"/>
+  </edges>
+  <edges xsi:type="notation:Connector" type="3003" source="//@children.5" target="//@children.4" lineColor="0">
+    <children xsi:type="notation:DecorationNode" type="4063">
+      <layoutConstraint xsi:type="notation:Location" y="40"/>
+    </children>
+    <styles xsi:type="notation:FontStyle" fontName="微软雅黑"/>
+    <element href="main.dstar_model#//@rootBasicLink.1"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" points="[0, 0, -141, -32]$[141, 32, 0, 0]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" id="(0.5,1.0)"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" id="(0.4977973568281938,0.0)"/>
+  </edges>
+</notation:Diagram>
